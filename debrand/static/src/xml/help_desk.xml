@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+   <t t-name="systray_cloud.myicon">
+       <li class="new_icon">
+           <label class="my_icon" style="margin-bottom:0px;"
+            title="Helpdesk">
+              <div class="icon_div">
+                  <div class="toggle-icon"><i class="fa fa-ticket" id="fa-icon"/>
+                  </div>
+              </div>
+           </label>
+       </li>
+   </t>
+</templates>

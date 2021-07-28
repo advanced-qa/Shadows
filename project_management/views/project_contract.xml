@@ -1,0 +1,51 @@
+<odoo>
+    <data>
+        <record id="project_contract_tree_view" model="ir.ui.view">
+            <field name="name">project.contract.tree</field>
+            <field name="model">project.contract</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="contract_period"/>
+                    <field name="date_start"/>
+                    <field name="date_end"/>
+                    <field name="first_party"/>
+                    <field name="second_party"/>
+                </tree>
+            </field>
+        </record>
+        <record id="project_contract_form_view" model="ir.ui.view">
+            <field name="name">project.contract.from.view</field>
+            <field name="model">project.contract</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="contract_period"/>
+                            <field name="date_start"/>
+                            <field name="date_end"/>
+                            <field name="first_party"/>
+                            <field name="second_party"/>
+                            <field name="terms"/>
+                            <field name="terms"/>
+                            <field name="contract_pdf"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="project_contract_form" model="ir.actions.act_window">
+            <field name="name">Project Contract</field>
+            <field name="res_model">project.contract</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_project_contract"
+                  name="Project Contract"
+                  action="project_contract_form"
+                  parent="project.menu_main_pm" sequence="4"/>
+
+    </data>
+</odoo>

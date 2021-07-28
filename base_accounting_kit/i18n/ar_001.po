@@ -1,0 +1,3384 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_accounting_kit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-13 08:03+0000\n"
+"PO-Revision-Date: 2021-03-13 08:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid " (copy)"
+msgstr "(نسخة)"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid " (grouped)"
+msgstr "(مجمعة)"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__entry_count
+msgid "# Asset Entries"
+msgstr "عدد قيود الأصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_nbr
+msgid "# of Depreciation Lines"
+msgstr "عدد بنود الإهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__installment_nbr
+msgid "# of Installment Lines"
+msgstr "عدد بنود"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
+#, python-format
+msgid "%s is in  Blocking Stage and has a due amount of %s %s to pay"
+msgstr "في مرحلة الحظر ولديه مبلغ مستحق للدفع"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+msgid ": Bank Book Report"
+msgstr "تقرير دفتر البنك"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+msgid ": Cash Book Report"
+msgstr "تقرير دفتر النقدية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+msgid ": Day Book Report"
+msgstr "تقرير دفتر اليوم"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid ": General ledger"
+msgstr "دفتر الأستاذ العام:"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid ": Trial Balance"
+msgstr "ميزان المراجعة :"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid ""
+"<br/>\n"
+"                                    <strong>Date to :</strong>"
+msgstr "الى تاريخ"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_kanban
+msgid "<i class=\"fa fa-building\" role=\"img\" aria-label=\"Enterprise\"/>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+msgid "<span>Comp</span>"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<span>Not due</span>"
+msgstr "غير مستحق"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Balance</strong>"
+msgstr "الرصيد"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "<strong>Company:</strong>"
+msgstr "الشركة:"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Credit</strong>"
+msgstr "الدائن"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Date from :</strong>"
+msgstr "من تاريخ"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Date to :</strong>"
+msgstr "الى تاريخ"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Debit</strong>"
+msgstr "المدين"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Display Account:</strong>"
+msgstr ":عرض الحساب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "<strong>Display Account</strong>"
+msgstr "عرض الحساب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "<strong>Entries Sorted By:</strong>"
+msgstr "القيود مرتبة حسب:"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "<strong>Journal:</strong>"
+msgstr "اليومية:"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "<strong>Journals:</strong>"
+msgstr "اليوميات"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+msgid "<strong>Name</strong>"
+msgstr "الاسم"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<strong>Partner's:</strong>"
+msgstr "الشركاء:"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<strong>Period Length (days)</strong>"
+msgstr "طول الفترة (ايام)"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "<strong>Purchase</strong>"
+msgstr "الشراء"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "<strong>Sorted By:</strong>"
+msgstr "مرتبة حسب :"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "<strong>Start Date:</strong>"
+msgstr "تاريخ البداية :"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "<strong>Target Moves:</strong>"
+msgstr "الحركات المستهدفة:"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "<strong>Total</strong>"
+msgstr "الاجمالي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_res_partner__warning_stage
+#: model:ir.model.fields,help:base_accounting_kit.field_res_users__warning_stage
+msgid ""
+"A warning message will appear once the selected customer is crossed warning "
+"amount. Set its value to 0.00 to disable this feature"
+msgstr " ستظهر رسالة تحذير بمجرد تجاوز تحذير العميل المحدد   اضبط قيمته على 0.00 لتعطيل هذه الميزة"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: model:ir.model,name:base_accounting_kit.model_account_account
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+#, python-format
+msgid "Account"
+msgstr "الحساب"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_aged_trial_balance
+msgid "Account Aged Trial balance Report"
+msgstr "تقرير ميزان المراجعة المسن في الحساب"
+
+#. module: base_accounting_kit
+#: model:ir.actions.server,name:base_accounting_kit.account_asset_cron_ir_actions_server
+#: model:ir.cron,cron_name:base_accounting_kit.account_asset_cron
+#: model:ir.cron,name:base_accounting_kit.account_asset_cron
+msgid "Account Asset: Generate asset entries"
+msgstr "أصل الحساب: إنشاء قيود الأصول"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_bank_book_report
+msgid "Account Bank Book Report"
+msgstr "تقرير دفتر حساب البنك"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_cash_book_report
+msgid "Account Cash Book Report"
+msgstr "تقرير دفتر حساب النقدية"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_common_account_report
+msgid "Account Common Account Report"
+msgstr "تقرير الحساب المشترك"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_common_partner_report
+msgid "Account Common Partner Report"
+msgstr "تقرير حساب الشريك المشترك "
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__date
+msgid "Account Date"
+msgstr "تاريخ المحاسبة"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_day_book_report
+msgid "Account Day Book Report"
+msgstr "تقرير الدفتر اليومي للحساب"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_followup
+msgid "Account Follow-up"
+msgstr "متابعة الحساب"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_report_partner_ledger
+msgid "Account Partner Ledger"
+msgstr "كشف حساب الشريك"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_print_journal
+msgid "Account Print Journal"
+msgstr "طباعة دفتر اليومية"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_recurring_entries_line
+msgid "Account Recurring Entries Line"
+msgstr "بنود إدخالات الحساب المتكررة"
+
+#. module: base_accounting_kit
+#: model:ir.actions.client,name:base_accounting_kit.action_account_invoice_report_all
+#: model:ir.model,name:base_accounting_kit.model_account_financial_report
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__children_ids
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_tree
+msgid "Account Report"
+msgstr "تقرير الحساب"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__account_report_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__account_report_id
+#: model:ir.ui.menu,name:base_accounting_kit.menu_account_financial_reports_tree
+msgid "Account Reports"
+msgstr "تقارير الحساب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Account Total"
+msgstr "اجمالي الحساب"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__account_type
+msgid "Account Type"
+msgstr "نوع الحساب"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__account_type_ids
+msgid "Account Types"
+msgstr "انواع الحسابات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_id
+msgid "Account used in the depreciation entries, to decrease the asset value."
+msgstr "الحساب المستخدم في إدخالات الإهلاك لتقليل قيمة الأصول."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_depreciation_expense_id
+msgid ""
+"Account used in the periodical entries, to record a part of the asset as "
+"expense."
+msgstr "الحساب المستخدم في الإدخالات الدورية ، لتسجيل جزء من الأصل باسم مصروف"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__account_asset_id
+msgid ""
+"Account used to record the purchase of the asset at its original price."
+msgstr "الحساب المستخدم لتسجيل شراء الأصل بسعره الأصلي."
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.res_config_settings_view_accounting_kit
+msgid "Accounting"
+msgstr "المحاسبة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Accounting Info"
+msgstr "معلومات المحاسبة"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_recurring_payments
+msgid "Accounting Recurring Payment"
+msgstr "المدفوعات المحاسبية المتكررة"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
+#, python-format
+msgid "Accounting entries waiting for manual verification"
+msgstr "قيود المحاسبة في انتظار التحقق اليدوي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__account_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__account_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__account_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__account_ids
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__accounts
+msgid "Accounts"
+msgstr "الحسابات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_needaction
+msgid "Action Needed"
+msgstr "الإجراءات اللازمة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__active
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__active
+msgid "Active"
+msgstr "نشط"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__active_limit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__active_limit
+msgid "Active Credit Limit"
+msgstr "تنشيط حد الائتمان"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Additional Options"
+msgstr "خيارات اضافية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
+msgid "After"
+msgstr "بعد"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_aged_balance_view
+#: model:ir.actions.report,name:base_accounting_kit.action_report_aged_partner_balance
+#: model:ir.ui.menu,name:base_accounting_kit.menu_aged_trial_balance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Aged Partner Balance"
+msgstr "رصيد الشريك المستحق"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_agedpartnerbalance
+msgid "Aged Partner Balance Report"
+msgstr "تقرير رصيد الشريك المستحق"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Aged Payable"
+msgstr "مستحق الدفع"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Aged Receivable"
+msgstr "مستحق القبض"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__all
+msgid "All"
+msgstr "الكل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__target_move__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__target_move__all
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_day_book_report__target_move__all
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "All Entries"
+msgstr "كل القيود"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__target_move__posted
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__target_move__posted
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_day_book_report__target_move__posted
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_flow
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "All Posted Entries"
+msgstr "كل القيود المرحلة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "All accounts"
+msgstr "كل الحسابات"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "All accounts'"
+msgstr "كل الحسابات"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__amount
+#, python-format
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_value
+msgid "Amount of Depreciation Lines"
+msgstr "مبلغ بنود الاهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__installment_value
+msgid "Amount of Installment Lines"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_analytic_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__analytic_account_id
+msgid "Analytic Account"
+msgstr "حساب تحليلي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__asset_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__asset_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Asset"
+msgstr "الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_asset_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Asset Account"
+msgstr "حساب الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_invoice_asset_category
+msgid "Asset Category"
+msgstr "فئة الاصل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+msgid "Asset Durations to Modify"
+msgstr "تعديل مدة الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_end_date
+msgid "Asset End Date"
+msgstr "تاريخ نهاية الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__asset_method_time
+msgid "Asset Method Time"
+msgstr "طريقة الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__name
+msgid "Asset Name"
+msgstr "اسم الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_start_date
+msgid "Asset Start Date"
+msgstr "تاريخ بداية الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_product__asset_category_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__asset_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Asset Type"
+msgstr "فئة الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_asset_asset_list_normal_purchase
+#: model:ir.ui.menu,name:base_accounting_kit.menu_action_account_asset_asset_list_normal_purchase
+msgid "Asset Types"
+msgstr "فئات الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_asset_category
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__asset_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_tree
+msgid "Asset category"
+msgstr "فئة الاصل"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Asset created"
+msgstr "اصل منشاة"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_asset_depreciation_line
+msgid "Asset depreciation line"
+msgstr "بنود اهلاك الاصل"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Asset sold or disposed. Accounting entry awaiting for validation."
+msgstr "بيع الأصول أو التخلص منها. القيد المحاسبي في انتظار التحقق من صحته."
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_asset_asset
+msgid "Asset/Revenue Recognition"
+msgstr "الاصول/الايرادات المؤجلة"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_assets0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_asset_asset_form
+#: model:ir.ui.menu,name:base_accounting_kit.menu_action_account_asset_asset_form
+#: model:ir.ui.menu,name:base_accounting_kit.menu_action_asset_asset_report
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_purchase_tree
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Assets"
+msgstr "اﻷصول"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_asset_report
+#: model:ir.model,name:base_accounting_kit.model_asset_asset_report
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.action_account_asset_report_graph
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.action_account_asset_report_pivot
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Assets Analysis"
+msgstr "تحليل اﻷصول"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__asset_depreciation_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__asset_depreciation_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__asset_depreciation_ids
+msgid "Assets Depreciation Lines"
+msgstr "بنود اهلاكات الاصول"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.menu_finance_config_assets
+msgid "Assets and Revenues"
+msgstr "الاصول و الايرادات"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Assets in closed state"
+msgstr "الاصول في حالة مغلقة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Assets in draft and open states"
+msgstr "الاصول في حالات مسودة ومفتوحة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Assets in draft state"
+msgstr "الاصول في حالة مسودة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Assets in running state"
+msgstr "الاصول في حالة مفتوحة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_audit
+msgid "Audit Reports"
+msgstr "تقارير التدقيق"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__open_asset
+msgid "Auto-confirm Assets"
+msgstr "تأكيد الأصول تلقائيًا"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__0
+msgid "Automatic formatting"
+msgstr "تنسيق تلقائي"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "BANK AND CASH BALANCE"
+msgstr "رصيد البنوك والنقدية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_balancesheet0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_balance_sheet_report
+#: model:ir.ui.menu,name:base_accounting_kit._account_financial_reports_balance_sheet
+msgid "Balance Sheet"
+msgstr "الميزانية العمومية"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_bank_book_menu
+msgid "Bank Book"
+msgstr "دفتر البنك"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_bank_book_view
+#: model:ir.actions.report,name:base_accounting_kit.action_report_bank_book
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
+msgid "Bank Book Report"
+msgstr "تقرير دفتر البنك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__bank_reference
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__bank_reference
+msgid "Bank Reference"
+msgstr "مرجع البنك"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Base Amount"
+msgstr "المبلغ الاساسي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__blocking_stage
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__blocking_stage
+msgid "Blocking Amount"
+msgstr "المبلغ المحظور"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_update_lock_date_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+msgid "Cancel"
+msgstr "الغاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_res_partner__blocking_stage
+#: model:ir.model.fields,help:base_accounting_kit.field_res_users__blocking_stage
+msgid ""
+"Cannot make sales once the selected customer is crossed blocking amount.Set "
+"its value to 0.00 to disable this feature"
+msgstr "لا يمكن إجراء مبيعات بمجرد تجاوز العميل المحدد مبلغ الحظر. عيِّن قيمته على 0.00 لتعطيل هذه الميزة"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_cash_book_menu
+msgid "Cash Book"
+msgstr "دفتر النقدية"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_cash_book_view
+#: model:ir.actions.report,name:base_accounting_kit.action_report_cash_book
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
+msgid "Cash Book Report"
+msgstr "تقرير دفتر النقدية"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_cash_flow_report
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_cash_flow
+msgid "Cash Flow Report"
+msgstr "تقرير التدفقات النقدية"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_cash_flow0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_cash_flow_report
+#: model:ir.actions.report,name:base_accounting_kit.action_report_cash_flow
+#: model:ir.ui.menu,name:base_accounting_kit.menu_account_cash_flow_report
+msgid "Cash Flow Statement"
+msgstr "بيان التدفقات النقدية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__cash_flow_type
+msgid "Cash Flow type"
+msgstr "نوع التدفق النقدي"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.cash_in_financial0
+#: model:account.financial.report,name:base_accounting_kit.cash_in_from_operation0
+#: model:account.financial.report,name:base_accounting_kit.cash_in_investing0
+msgid "Cash In"
+msgstr "التدفقات النقدية الداخلة"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.cash_out_financial1
+#: model:account.financial.report,name:base_accounting_kit.cash_out_investing1
+#: model:account.financial.report,name:base_accounting_kit.cash_out_operation1
+msgid "Cash Out"
+msgstr "التدفقات النقدية الخارجة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Category"
+msgstr "الفئة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Category of asset"
+msgstr "فئات الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__open_asset
+msgid ""
+"Check this if you want to automatically confirm the assets of this category "
+"when created by invoices."
+msgstr "حدد هذا الخيار إذا كنت تريد تأكيد أصول هذه الفئة تلقائيًا عند إنشائها بواسطة الفواتير."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__group_entries
+msgid "Check this if you want to group the generated entries by categories."
+msgstr "حدد هذا الخيار إذا كنت تريد تجميع الإدخالات التي تم إنشاؤها حسب الفئات."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__cheque_reference
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__cheque_reference
+msgid "Cheque Reference"
+msgstr "مرجع الشيك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method
+msgid ""
+"Choose the method to use to compute the amount of depreciation lines.\n"
+"  * Linear: Calculated on basis of: Gross Value / Number of Depreciations\n"
+"  * Degressive: Calculated on basis of: Residual Value * Degressive Factor"
+msgstr "اختر الطريقة المراد استخدامها لحساب مقدار بنود الإهلاك. خطي: محسوب على أساس: القيمة الإجمالية / عدد الإهلاكات التنازلية: محسوبة على أساس: القيمة المتبقية * عامل الانحدار"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_time
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_time
+msgid ""
+"Choose the method to use to compute the dates and number of entries.\n"
+"  * Number of Entries: Fix the number of entries and the time between 2 depreciations.\n"
+"  * Ending Date: Choose the time between 2 depreciations and the date the depreciations won't go beyond."
+msgstr "اختر الطريقة المراد استخدامها لحساب التواريخ وعدد الإدخالات. عدد الإدخالات: أصلح عدد الإدخالات والوقت بين عمليتي إهلاك. تاريخ الانتهاء: اختر الوقت بين عمليتي إهلاك والتاريخ الذي لن تتجاوزه عمليات الإهلاك."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_asset_depreciation_confirmation_wizard__date
+msgid ""
+"Choose the period for which you want to automatically post the depreciation "
+"lines of running assets"
+msgstr "اختر الفترة التي تريد ترحيل بنود الإهلاك الخاصة بها للأصول قيد التشغيل تلقائيًا"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_recurring_payments_view
+msgid "Click to create new recurring payment template"
+msgstr "انقر لإنشاء قالب دفع متكرر جديد"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__close
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__close
+msgid "Close"
+msgstr "قفل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Closed"
+msgstr "مقفول"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Code"
+msgstr "رمز"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__label_filter
+msgid "Column Label"
+msgstr "تسمية العمود"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__company_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__company_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Company"
+msgstr "الشركة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__name
+msgid "Company Name"
+msgstr "اسم الشركة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.cash_flow_report_view
+msgid "Comparison"
+msgstr "مقارنة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method
+msgid "Computation Method"
+msgstr "طريقة الحساب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+msgid "Compute Asset"
+msgstr "حساب الاصل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Compute Depreciation"
+msgstr "حساب الاهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_res_config_settings
+msgid "Config Settings"
+msgstr "ضبط الإعدادات"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Confirm"
+msgstr "تاكيد"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
+#, python-format
+msgid "Created Asset Moves"
+msgstr "انشاء حركات الاصل"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/asset_depreciation_confirmation_wizard.py:0
+#, python-format
+msgid "Created Revenue Moves"
+msgstr "انشاء حركات الايرادات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__create_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__create_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Credit"
+msgstr "الدائن"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__credit_account
+msgid "Credit Account"
+msgstr "الحساب الدائن"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_customer_form
+msgid "Credit Limit"
+msgstr "حد الائتمان"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__enable_credit_limit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__enable_credit_limit
+msgid "Credit Limit Enabled"
+msgstr "تفعيل حد الائتمان"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__depreciated_value
+msgid "Cumulative Depreciation"
+msgstr "الاهلاك التراكمي"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__currency_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#, python-format
+msgid "Currency"
+msgstr "العملة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Current"
+msgstr "الحالي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__amount
+msgid "Current Depreciation"
+msgstr "الإهلاك الحالي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings__customer_credit_limit
+msgid "Customer Credit Limit"
+msgstr "حد ائتمان العميل"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Customer Invoice"
+msgstr "فواتير العملاء"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_daily_reports
+msgid "Daily Reports"
+msgstr "التقارير اليومية"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: model:ir.ui.menu,name:base_accounting_kit.menu_accounting_dashboard
+#, python-format
+msgid "Dashboard"
+msgstr "لوحة المعلومات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__sortby__sort_date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__sortby__sort_date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_print_journal__sort_selection__date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__sortby__sort_date
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__cash_flow_report__filter_cmp__filter_date
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_to_cmp
+msgid "Date End"
+msgstr "تاريخ الانتهاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_from_cmp
+msgid "Date Start"
+msgstr "تاريخ البداية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Date of asset"
+msgstr "تاريخ الاصل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Date of asset purchase"
+msgstr "تاريخ شراء اﻷصل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Date of depreciation"
+msgstr "تاريخ الإهلاك"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.cash_flow_report_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
+msgid "Dates"
+msgstr "التواريخ"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_day_book_menu
+msgid "Day Book"
+msgstr "الدفتر اليومي"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.day_book_pdf_report
+msgid "Day Book PDF Report"
+msgstr "تقرير الدفتر اليومي"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_day_book_view
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_day_book_report_template
+msgid "Day Book Report"
+msgstr "تقرير الدفتر اليومي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__days
+msgid "Days"
+msgstr "الايام"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "Debit"
+msgstr "المدين"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__debit_account
+msgid "Debit Account"
+msgstr "الحساب المدين"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Deferred Revenue Account"
+msgstr "حساب الايرادات المؤجلة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_product__deferred_revenue_category_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__deferred_revenue_category_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Deferred Revenue Type"
+msgstr "نوع الايراد المؤجل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Deferred Revenues"
+msgstr "الايرادات المؤجلة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
+msgid "Define follow-up levels and their related actions"
+msgstr "تحديد مستويات المتابعة والإجراءات المتعلقة بها"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__degressive
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method__degressive
+msgid "Degressive"
+msgstr "الانحدار"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_progress_factor
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_progress_factor
+msgid "Degressive Factor"
+msgstr "عامل الانحدار"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation"
+msgstr "الاهلاك"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation Board"
+msgstr "لوحة الاهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__depreciation_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__depreciation_date
+msgid "Depreciation Date"
+msgstr "تاريخ الاهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_depreciation_id
+msgid "Depreciation Entries: Asset Account"
+msgstr "قيود الاهلاك :حساب الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__account_depreciation_expense_id
+msgid "Depreciation Entries: Expense Account"
+msgstr "قيود الاهلاك :حساب المصروف"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_id
+msgid "Depreciation Entry"
+msgstr "قيد الاهلاك "
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation Information"
+msgstr "معلومات الاهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__depreciation_line_ids
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Depreciation Lines"
+msgstr "بنود الاهلاك"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Depreciation Method"
+msgstr "طريقة الاهلاك"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Depreciation Month"
+msgstr "شهر الاهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__name
+msgid "Depreciation Name"
+msgstr "اسم الاهلاك"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/asset_modify.py:0
+#, python-format
+msgid "Depreciation board modified"
+msgstr "لوحة اهلاك معدلة"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Depreciation line posted."
+msgstr "بنود اهلاك مرحلة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__description
+msgid "Description"
+msgstr "الوصف"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Description..."
+msgstr "الوصف..."
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
+msgid "Discard"
+msgstr "تجاهل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__display_account
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__display_account
+msgid "Display Accounts"
+msgstr "عرض الحسابات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__debit_credit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__debit_credit
+msgid "Display Debit/Credit Columns"
+msgstr "عرض عمود  الدائن / المدين"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_day_book_report_template__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_agedpartnerbalance__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_bank_book__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_cash_book__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_cash_flow__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_financial__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_general_ledger__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_journal_audit__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_partnerledger__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_tax__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_trial_balance__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__display_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__detail_flat
+msgid "Display children flat"
+msgstr "عرض مسطح"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__detail_with_hierarchy
+msgid "Display children with hierarchy"
+msgstr "عرض هرمي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__display_detail
+msgid "Display details"
+msgstr "عرض التفاصيل"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Disposal Move"
+msgstr "حركة التخلص"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Disposal Moves"
+msgstr "حركات التخلص"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "Document closed."
+msgstr "مستند مغلق"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__draft
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__state__draft
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__draft
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__delay
+msgid "Due Days"
+msgstr "أيام الاستحقاق"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__effective_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__effective_date
+msgid "Effective Date"
+msgstr "تاريخ التفعيل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_payment__effective_date
+#: model:ir.model.fields,help:base_accounting_kit.field_account_payment_register__effective_date
+msgid "Effective date of PDC"
+msgstr "تاريخ تفعيل الشيك الموجل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__enable_filter
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__enable_filter
+msgid "Enable Comparison"
+msgstr "تفعيل المقارنة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.es_config_settings_view_form_base_accounting_kit
+msgid "Enable credit limit for customers"
+msgstr "تفعيل حد الائتمان للعملاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__date_to
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__date_to
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_end
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method_time__end
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method_time__end
+msgid "Ending Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_end
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__method_end
+msgid "Ending date"
+msgstr "تاريخ الانتهاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__sort_selection
+msgid "Entries Sorted by"
+msgstr "قيود يوميه مصنفة حسب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "Entry Label"
+msgstr "تسمية القيد"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_expense0
+msgid "Expense"
+msgstr "مصروف"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Extended Filters..."
+msgstr "الفلاتر الممتدة ..."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__filter_cmp
+msgid "Filter by"
+msgstr "فلتر بواسطة"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_financial
+msgid "Financial Report"
+msgstr "تقرير مالي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__style_overwrite
+msgid "Financial Report Style"
+msgstr "نمط التقرير المالي"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_financial_report_tree
+#: model:ir.model,name:base_accounting_kit.model_financial_report
+msgid "Financial Reports"
+msgstr "التقارير المالية"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.financial_report_pdf
+msgid "Financial reports"
+msgstr "التقارير المالية"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_financing_activity1
+msgid "Financing Activities"
+msgstr "الانشطة المالية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__followup_id
+msgid "Follow Ups"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__name
+msgid "Follow-Up Action"
+msgstr "اجراء متابعة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__followup_line_ids
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_tree
+msgid "Follow-up"
+msgstr "متابعة"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_followup_line
+msgid "Follow-up Criteria"
+msgstr "معيار المتابعة"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_followup_menu
+msgid "Follow-up Levels"
+msgstr "مستويات المتابعة"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_view_list_customer_statements
+#: model:ir.ui.menu,name:base_accounting_kit.customer_statements_menu
+msgid "Follow-up Reports"
+msgstr "تقارير المتابعة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_tree_view
+msgid "Follow-up Reports Tree View"
+msgstr "متابعة عرض شجرة التقارير"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_tree
+msgid "Follow-up Steps"
+msgstr "خطوات المتابعة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_follower_ids
+msgid "Followers"
+msgstr "المتابعون"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "المتابعون (قنوات)"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__followup_status
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__followup_status
+msgid "Followup status"
+msgstr "حالات المتابعة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_financial_report__sign
+msgid ""
+"For accounts that are typically more debited than credited and that you "
+"would like to print as negative amounts in your reports, you should reverse "
+"the sign of the balance; e.g.: Expense account. The same applies for "
+"accounts that are typically more credited than debited and that you would "
+"like to print as positive amounts in your reports; e.g.: Income account."
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_account_followup_definition_form
+msgid ""
+"For each step, specify the actions to be taken and delay in days. It is\n"
+"                possible to use print and e-mail templates to send specific messages to\n"
+"                the customer."
+msgstr ""
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/report/account_bank_book.py:0
+#: code:addons/base_accounting_kit/report/account_cash_book.py:0
+#: code:addons/base_accounting_kit/report/account_day_book.py:0
+#: code:addons/base_accounting_kit/report/cash_flow_report.py:0
+#: code:addons/base_accounting_kit/report/general_ledger_report.py:0
+#: code:addons/base_accounting_kit/report/report_aged_partner.py:0
+#: code:addons/base_accounting_kit/report/report_journal_audit.py:0
+#: code:addons/base_accounting_kit/report/report_partner_ledger.py:0
+#: code:addons/base_accounting_kit/report/report_tax.py:0
+#: code:addons/base_accounting_kit/report/report_trial_balance.py:0
+#, python-format
+msgid "Form content is missing, this report cannot be printed."
+msgstr "محتوى النموذج مفقود ، لا يمكن طباعة هذا التقرير."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__view_format
+msgid "Format"
+msgstr "صيغة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_asset_asset_report
+msgid ""
+"From this report, you can have an overview on all depreciations. The\n"
+"            search bar can also be used to personalize your assets depreciation reporting."
+msgstr "من هذا التقرير ، يمكنك الحصول على نظرة عامة على جميع الإهلاك. يمكن أيضًا استخدام شريط البحث لتخصيص تقارير إهلاك الأصول الخاصة بك."
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_general_ledger_menu
+#: model:ir.actions.report,name:base_accounting_kit.action_report_general_ledger
+#: model:ir.ui.menu,name:base_accounting_kit.menu_general_ledger
+msgid "General Ledger"
+msgstr "دفتر الاستاذ العام"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_report_general_ledger
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_general_ledger
+msgid "General Ledger Report"
+msgstr "تقرير دفتر الاستاذ العام"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.menu_asset_depreciation_confirmation_wizard
+msgid "Generate Assets Entries"
+msgstr "انشاء قيود الاصول"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+msgid "Generate Entries"
+msgstr "انشاء القيود"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__journal_state
+msgid "Generate Journal As"
+msgstr "انشاء اليومية ك"
+
+#. module: base_accounting_kit
+#: model:ir.actions.server,name:base_accounting_kit.recurring_template_cron_ir_actions_server
+#: model:ir.cron,cron_name:base_accounting_kit.recurring_template_cron
+#: model:ir.cron,name:base_accounting_kit.recurring_template_cron
+msgid "Generate Recurring Entries"
+msgstr "انشاء القيود المتكررة"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_generic_statements
+msgid "Generic Statements"
+msgstr "بيانات عامة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_followup_line__sequence
+msgid "Gives the sequence order when displaying a list of follow-up lines."
+msgstr "يعطي ترتيب التسلسل عند عرض قائمة سطور المتابعة."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__gross_value
+msgid "Gross Amount"
+msgstr "المبلغ الاجمالي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__value
+msgid "Gross Value"
+msgstr "القيمة الاجمالية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Gross value of asset"
+msgstr "القيمة الاجمالية للاصل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Group By"
+msgstr "تجميع ب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Group By..."
+msgstr "تجميع ب..."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__group_entries
+msgid "Group Journal Entries"
+msgstr "تجميع القيود"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__has_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__has_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__has_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__has_due
+msgid "Has Due"
+msgstr "مستحق"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__financial_report__view_format__horizontal
+msgid "Horizontal"
+msgstr "أفقي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_account__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_template__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_day_book_report_template__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_agedpartnerbalance__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_bank_book__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_cash_book__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_cash_flow__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_financial__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_general_ledger__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_journal_audit__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_partnerledger__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_tax__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_trial_balance__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "INVOICES"
+msgstr "الفواتير"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_needaction
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديدها ، فإن الرسائل الجديدة تتطلب انتباهك."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_error
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديده ، فإن بعض الرسائل بها خطأ في التسليم."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_bank_book_report__initial_balance
+#: model:ir.model.fields,help:base_accounting_kit.field_account_cash_book_report__initial_balance
+#: model:ir.model.fields,help:base_accounting_kit.field_account_report_general_ledger__initial_balance
+msgid ""
+"If you selected date, this field allow you to add a row to display the "
+"amount of debit/credit/balance that precedes the filter you've set."
+msgstr "إذا حددت التاريخ ، فسيتيح لك هذا الحقل إضافة صف لعرض مبلغ الخصم / الائتمان / الرصيد الذي يسبق عامل التصفية الذي قمت بتعيينه."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__in_need_of_action
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
+msgid "In need of action"
+msgstr "بحاجة للعمل"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_payment.py:0
+#, python-format
+msgid ""
+"In order to print multiple checks at once, they must belong to the same bank"
+" journal."
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__initial_balance
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__initial_balance
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__initial_balance
+msgid "Include Initial Balances"
+msgstr "قم بتضمين الأرصدة الأولية"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_income0
+msgid "Income"
+msgstr "الدخل"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Income/Expense"
+msgstr "الدخل/المصروف"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__prorata
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first January / Start date of fiscal "
+"year"
+msgstr "يشير إلى أن إدخال الإهلاك الأول لهذا الأصل يجب أن يتم من تاريخ الشراء بدلاً من أول يناير / تاريخ بدء السنة المالية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__prorata
+msgid ""
+"Indicates that the first depreciation entry for this asset have to be done "
+"from the purchase date instead of the first of January"
+msgstr "يشير إلى أن إدخال الإهلاك الأول لهذا الأصل يجب أن يتم من تاريخ الشراء بدلاً من الأول من يناير"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_investing_activity0
+msgid "Investing Activities"
+msgstr "نشاطات إستثمارية"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__invoice_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#, python-format
+msgid "Invoice"
+msgstr "الفاتورة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__invoice_list
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__invoice_list
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "Invoice Details"
+msgstr "تفاصيل الفاتورة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_is_follower
+msgid "Is Follower"
+msgstr "هو متابع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__is_warning
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__is_warning
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__is_warning
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__is_warning
+msgid "Is Warning"
+msgstr "هو تحذير"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_report_partner_ledger__amount_currency
+msgid ""
+"It adds the currency column on report if the currency differs from the "
+"company currency."
+msgstr "يضيف عمود العملة في التقرير إذا كانت العملة تختلف عن عملة الشركة."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__salvage_value
+msgid "It is the amount you plan to have that you cannot depreciate."
+msgstr "إنه المبلغ الذي تخطط للحصول عليه ولا يمكنك استهلاكه."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__5
+msgid "Italic Text (smaller)"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Items"
+msgstr "عناصر"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+msgid "JRNL"
+msgstr "يومية"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_journal
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__journal_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__journal_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Journal"
+msgstr "دفتر اليومية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__sortby__sort_journal_partner
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__sortby__sort_journal_partner
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__sortby__sort_journal_partner
+msgid "Journal & Partner"
+msgstr "اليومية & الشريك"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+#, python-format
+msgid "Journal Entries"
+msgstr "قيود يومية"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_move
+msgid "Journal Entry"
+msgstr "قيد اليومية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_print_journal__sort_selection__move_name
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Journal Entry Number"
+msgstr "رقم قيد اليومية"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_move_line
+msgid "Journal Item"
+msgstr "عنصر اليومية"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_journal_audit
+msgid "Journal Report"
+msgstr "تقرير اليومية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+msgid "Journal and Partner"
+msgstr "اليومية و الشريك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__journal_ids
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__journal_ids
+msgid "Journals"
+msgstr "دفاتر اليومية"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_print_journal_menu
+#: model:ir.actions.report,name:base_accounting_kit.action_report_journal
+#: model:ir.ui.menu,name:base_accounting_kit.menu_print_journal
+msgid "Journals Audit"
+msgstr "تدقيق اليومية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Label"
+msgstr "تسمية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_account____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_journal____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment_register____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_product_template____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_day_book_report_template____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_agedpartnerbalance____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_bank_book____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_cash_book____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_cash_flow____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_financial____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_general_ledger____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_journal_audit____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_partnerledger____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_tax____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_report_base_accounting_kit_report_trial_balance____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_config_settings____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner____last_update
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Last Month"
+msgstr "الشهر الماضي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__write_uid
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_followup__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_depreciation_confirmation_wizard__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__write_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Last Year"
+msgstr "السنة الماضية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__level
+msgid "Level"
+msgstr "المستوي"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_liability0
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_liabilitysum0
+msgid "Liability"
+msgstr "الالتزامات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method__linear
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method__linear
+msgid "Linear"
+msgstr "خطي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_check
+msgid "Linked"
+msgstr "مرتبط"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
+msgid "Lock Date"
+msgstr "تاريخ القفل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_lock_date__period_lock_date
+msgid "Lock Date for Non-Advisers"
+msgstr "تاريخ القفل لغير المدراء"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.menu_lock_dates
+msgid "Lock Dates"
+msgstr "تواريخ القفل"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_lock_date
+msgid "Lock date for accounting"
+msgstr "تاريخ القفل للمحاسبين"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.account_update_lock_date_act_window
+msgid "Lock your Fiscal Period"
+msgstr "قفل الفترة المالية الخاصة بك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__1
+msgid "Main Title 1 (bold, underlined)"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+msgid "Modify"
+msgstr "تعديل"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_modify
+#: model:ir.model,name:base_accounting_kit.model_asset_modify
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+msgid "Modify Asset"
+msgstr "تعديل الاصل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Modify Depreciation"
+msgstr "تعديل الاهلاك"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_search
+msgid "Month"
+msgstr "شهر"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move_line__asset_mrr
+msgid "Monthly Recurring Revenue"
+msgstr "الإيرادات الشهرية المتكررة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__months
+msgid "Months"
+msgstr "الشهور"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Move"
+msgstr "حركة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__template_name
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__name
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_financial
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Name"
+msgstr "اسم"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Net"
+msgstr "الصافي"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Net Profit or Loss"
+msgstr "صافي الارباح او الخسائر"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__remaining_value
+msgid "Next Period Depreciation"
+msgstr "إهلاك الفترة التالية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__next_reminder_date
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__next_reminder_date
+msgid "Next Reminder Date"
+msgstr "تاريخ التذكير القادم"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__next_date
+msgid "Next Schedule"
+msgstr "الجدول التالي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__cash_flow_report__filter_cmp__filter_no
+msgid "No Filters"
+msgstr "لا فلتر"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__no_action_needed
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
+msgid "No action needed"
+msgstr "لا اجراء مطلوب"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__display_detail__no_detail
+msgid "No detail"
+msgstr "لا تفاصيل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.actions.act_window,help:base_accounting_kit.action_view_list_customer_statements
+msgid "No follow-up to send!"
+msgstr "لا متابعة للإرسال!"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__fiscalyear_lock_date
+msgid ""
+"No users, including Advisers, can edit accounts prior to and inclusive of "
+"this date. Use it for fiscal year locking for example."
+msgstr "لا يمكن لأي مستخدم ، بما في ذلك المستشارون ، تحرير الحسابات السابقة والشاملة لهذا التاريخ. استخدمه لقفل السنة المالية على سبيل المثال."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__4
+msgid "Normal Text"
+msgstr "نص عادي"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Not archived"
+msgstr "غير مؤرشف"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__note
+msgid "Note"
+msgstr "ملاحظة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الإجراءات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_number
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_number
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__method_number
+msgid "Number of Depreciations"
+msgstr "عدد الاهلاك"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__method_time__number
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__method_time__number
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Number of Entries"
+msgstr "عدد القيود"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_period
+msgid "Number of Months in a Period"
+msgstr "عدد الأشهر في فترة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الاخطاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__message_unread_counter
+msgid "Number of unread messages"
+msgstr "عدد الرسائل الغير مقرؤة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "One Entry Every"
+msgstr "قيد كل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_lock_date__period_lock_date
+msgid ""
+"Only users with the 'Adviser' role can edit accounts prior to and inclusive "
+"of this date. Use it for period locking inside an open fiscal year, for "
+"example."
+msgstr "يمكن للمستخدمين الذين لهم دور المستشار تحرير الحسابات قبل هذا التاريخ وشمله. استخدمه لقفل الفترة داخل سنة مالية مفتوحة ، على سبيل المثال."
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_operation0
+msgid "Operations"
+msgstr "عمليات"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Other Info"
+msgstr "معلومات اخرى"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_search_view
+msgid "Overdue Invoices"
+msgstr "الفواتير المتأخرة"
+
+#. module: base_accounting_kit
+#: model:account.payment.method,name:base_accounting_kit.account_payment_method_pdc_in
+#: model:account.payment.method,name:base_accounting_kit.account_payment_method_pdc_out
+msgid "PDC"
+msgstr "الشيكات المؤجلة"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#, python-format
+msgid "Paid"
+msgstr "مدفوع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__parent_id
+msgid "Parent"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+msgid "Parent Report"
+msgstr ""
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__partner_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__partner_id
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__partner_id
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+#, python-format
+msgid "Partner"
+msgstr "شريك"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_partner_leadger
+#: model:ir.actions.report,name:base_accounting_kit.action_report_partnerledger
+#: model:ir.ui.menu,name:base_accounting_kit.menu_partner_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+msgid "Partner Ledger"
+msgstr "دفتر الشركاء"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_partnerledger
+msgid "Partner Ledger Report"
+msgstr "تقرير دفتر الشركاء"
+
+#. module: base_accounting_kit
+#: model:ir.ui.menu,name:base_accounting_kit.account_reports_partner
+msgid "Partner Reports"
+msgstr "تقارير الشركاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__result_selection
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__result_selection
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__result_selection
+msgid "Partner's"
+msgstr "الشركاء"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Partners"
+msgstr "الشركاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__pay_time__pay_now
+msgid "Pay Directly"
+msgstr "ادفع مباشرة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__pay_time__pay_later
+msgid "Pay Later"
+msgstr "ادفع لاحقا"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__pay_time
+msgid "Pay Time"
+msgstr "وقت الدفع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_partner_report__result_selection__supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__supplier
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Payable Accounts"
+msgstr "حسابات الدائنون"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_followup_definition_form
+msgid "Payment Follow-ups"
+msgstr "متابعة الدفعيات"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_payment
+msgid "Payments"
+msgstr "المدفوعات"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_payment.py:0
+#, python-format
+msgid ""
+"Payments to print as a checks must have 'Check' or 'PDC' selected as payment"
+" method and not have already been reconciled"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_period
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__method_period
+msgid "Period Length"
+msgstr "طول الفترة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__period_length
+msgid "Period Length (days)"
+msgstr "طول الفترة (ايام)"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Periodicity"
+msgstr "دورية"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_asset_depreciation_confirmation_wizard
+msgid "Post Depreciation Lines"
+msgstr "ترحيل بنود الاهلاك"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__move_posted_check
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__move_check
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__journal_state__posted
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+#, python-format
+msgid "Posted"
+msgstr "مرحلة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__posted_value
+msgid "Posted Amount"
+msgstr "مبلغ مرحل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Posted depreciation lines"
+msgstr "بنود اهلاك مرحلة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__1
+msgid "Preserve balance sign"
+msgstr "حفظ علامة التوازن"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_bank_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_cash_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_day_book_form_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.financial_report_wiz_modified
+msgid "Print"
+msgstr "طباعة"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_payment.py:0
+#, python-format
+msgid "Print Pre-numbered Checks"
+msgstr "طباعة الشيكات المرقمة مسبقًا"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_print_journal__amount_currency
+msgid ""
+"Print Report with the currency column if the currency differs from the "
+"company currency."
+msgstr ""
+"طباعة التقرير مع خانة العملة اذا كانت العملة تختلف عن العملة الافتراضية "
+"للمؤسسة."
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_product_template
+msgid "Product Template"
+msgstr "قالب المنتج"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitloss_toreport0
+msgid "Profit (Loss) to report"
+msgstr "الربح (الخسارة) للتقرير"
+
+#. module: base_accounting_kit
+#: model:account.financial.report,name:base_accounting_kit.account_financial_report_profitandloss0
+#: model:ir.actions.act_window,name:base_accounting_kit.action_profit_and_loss_report
+#: model:ir.ui.menu,name:base_accounting_kit.account_financial_reports_profit_loss
+msgid "Profit and Loss"
+msgstr "الارباح والخسائر"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__prorata
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__prorata
+msgid "Prorata Temporis"
+msgstr ""
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid ""
+"Prorata temporis can be applied only for time method \"number of "
+"depreciations\"."
+msgstr "يمكن تطبيق Prorata temporis فقط على عدد عمليات الإهلاك الخاصة بالطريقة الزمنية"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Purchase"
+msgstr "الشراء"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Purchase Month"
+msgstr "تاريخ الشراء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__purchase
+msgid "Purchase: Asset"
+msgstr "شراء : اﻷصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_modify__name
+msgid "Reason"
+msgstr "السبب"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__customer
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_partner_report__result_selection__customer
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__customer
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Receivable Accounts"
+msgstr "الحسابات المدينة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_aged_trial_balance__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_partner_report__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_partner_ledger__result_selection__customer_supplier
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Receivable and Payable Accounts"
+msgstr "الحسابات المدينة والدائنة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Recognition Account"
+msgstr "حساب المؤجل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Recognition Income Account"
+msgstr "حساب الدخل المؤجل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__reconciled
+msgid "Reconciled Entries"
+msgstr "قيود تمت تسويتها"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_interval
+msgid "Recurring Interval"
+msgstr "الفترة التكرارية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_lines
+msgid "Recurring Lines"
+msgstr "بنود التكرار"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__recurring_period
+msgid "Recurring Period"
+msgstr "فترة التكرار"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__recurring_ref
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__recurring_ref
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__recurring_ref
+msgid "Recurring Ref"
+msgstr "مرجع التكرار"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_form_view
+msgid "Recurring Template"
+msgstr "نموذج التكرار"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_recurring_payments_view
+#: model:ir.ui.menu,name:base_accounting_kit.account_recurring_payments_child1
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_recurring_payments_tree_view
+msgid "Recurring Templates"
+msgstr "نماذج التكرار"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.day_book_report_template
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_partnerledger
+msgid "Ref"
+msgstr "مرجع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__code
+msgid "Reference"
+msgstr "مرجع"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_payment_register
+msgid "Register Payment"
+msgstr "تسجيل دفعة"
+
+#. module: base_accounting_kit
+#: model:followup.line,name:base_accounting_kit.followup_line_id
+msgid "Reminder"
+msgstr "تذكير"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_form
+msgid "Report"
+msgstr "تقرير"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__name
+msgid "Report Name"
+msgstr "اسم التقرير"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_aged_balance_view
+msgid "Report Options"
+msgstr "خيارات التقرير"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_financial_report_search
+msgid "Report Type"
+msgstr "نوع التقرير"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__account_report_id
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__account_report
+msgid "Report Value"
+msgstr "قيمة التقرير"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Residual"
+msgstr "المتبقي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__value_residual
+msgid "Residual Value"
+msgstr "قيمة المتبقي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__sign__-1
+msgid "Reverse balance sign"
+msgstr "علامة التوازن العكسي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_asset__state__open
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__state__running
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__asset_asset_report__state__open
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_asset_report_search
+msgid "Running"
+msgstr "تشغيلية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Sale"
+msgstr "مبيعات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_asset_category__type__sale
+msgid "Sale: Revenue Recognition"
+msgstr "مبيعات : الايرادات المؤجلة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Sales"
+msgstr "مبيعات"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__salvage_value
+msgid "Salvage Value"
+msgstr "قيمة مستردة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Search Asset Category"
+msgstr "ابحث فئات الاصل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_filter
+msgid "Search Follow-up"
+msgstr "متابعة البحث"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Sell or Dispose"
+msgstr "بيع أو التخلص"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__sequence
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__sequence
+#: model:ir.model.fields,field_description:base_accounting_kit.field_followup_line__sequence
+msgid "Sequence"
+msgstr "تسلسل"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "Set to Draft"
+msgstr "تعيين إلى مسودة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__sign
+msgid "Sign on Reports"
+msgstr "قم بتسجيل الدخول إلى التقارير"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Skill Level: 50%"
+msgstr "مستوى المهارة: 50٪"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__6
+msgid "Smallest Text"
+msgstr "نص صغير"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__sortby
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__sortby
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__sortby
+msgid "Sort by"
+msgstr "تجميع ب"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__date_from
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__date_from
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__date
+msgid "Starting Date"
+msgstr "تاريخ البداية"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_period
+msgid "State here the time between 2 depreciations, in months"
+msgstr "اذكر هنا الوقت بين عمليتي إهلاك ، بالأشهر"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_depreciation_line__parent_state
+msgid "State of Asset"
+msgstr "حالة الاصل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__state
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_payments__state
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__state
+msgid "Status"
+msgstr "الحالات"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Supplier Invoice"
+msgstr "فواتير الموردين"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "TOP 10 CUSTOMERS"
+msgstr "أعلى 10 عملاء"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_aged_trial_balance__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_balance_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_book_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_cash_book_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_account_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_common_partner_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_day_book_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_general_ledger__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_cash_flow_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_financial_report__target_move
+#: model:ir.model.fields,field_description:base_accounting_kit.field_kit_account_tax_report__target_move
+msgid "Target Moves"
+msgstr "الحركة المستهدفة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Tax"
+msgstr "الضريبة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Tax Amount"
+msgstr "مبلغ الضريبة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_journal_audit
+msgid "Tax Declaration"
+msgstr "الإقرار الضريبي"
+
+#. module: base_accounting_kit
+#: model:ir.actions.report,name:base_accounting_kit.action_report_account_tax
+#: model:ir.model,name:base_accounting_kit.model_kit_account_tax_report
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_tax
+#: model:ir.ui.menu,name:base_accounting_kit.menu_tax_report
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_tax
+msgid "Tax Report"
+msgstr "تقرير الضريبة"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_tax_report
+msgid "Tax Reports"
+msgstr "تقارير الضريبة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_period
+msgid "The amount of time between two depreciations, in months"
+msgstr "مقدار الوقت بين عمليتي إهلاك بالأشهر"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_followup_line__delay
+msgid ""
+"The number of days after the due date of the invoice to wait before sending "
+"the reminder.  Could be negative if you want to send a polite alert "
+"beforehand."
+msgstr "عدد الأيام التي تلي تاريخ استحقاق الفاتورة للانتظار قبل إرسال التذكير. يمكن أن تكون سلبية إذا كنت تريد إرسال تنبيه مهذب مسبقًا."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__method_number
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_category__method_number
+msgid "The number of depreciations needed to depreciate your asset"
+msgstr "عدد الإهلاكات اللازمة لخفض قيمة الأصول الخاصة بك"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_move.py:0
+#, python-format
+msgid ""
+"The number of depreciations or the period length of your asset category "
+"cannot be null."
+msgstr "لا يمكن أن يكون عدد الإهلاك أو مدة فئة الأصول فارغة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
+msgid "This Customer's due amount is"
+msgstr "المبلغ المستحق لهذا العميل هو"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "This Month"
+msgstr "هذا الشهر"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "This Year"
+msgstr "هذه السنة"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_move_form_inherited
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.header_view
+msgid "This customer's <strong>warning limit</strong> has been crossed."
+msgstr ""
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid ""
+"This depreciation is already linked to a journal entry! Please post or "
+"delete it."
+msgstr "هذا الاهلاك مرتبط بالفعل بإدخال دفتر اليومية! يرجى ترحيله أو حذفه."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__label_filter
+msgid ""
+"This label will be displayed on report to show the balance computed for the "
+"given comparison filter."
+msgstr "سيتم عرض هذه التسمية في التقرير لإظهار الرصيد المحسوب لمرشح المقارنة المحدد."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_cash_flow_report__debit_credit
+#: model:ir.model.fields,help:base_accounting_kit.field_financial_report__debit_credit
+msgid ""
+"This option allows you to get more details about the way your balances are "
+"computed. Because it is space consuming, we do not allow to use it while "
+"doing a comparison."
+msgstr "يتيح لك هذا الخيار الحصول على مزيد من التفاصيل حول طريقة حساب أرصدتك. نظرًا لأنها تستهلك مساحة ، فإننا لا نسمح باستخدامها أثناء إجراء مقارنة."
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_asset_depreciation_confirmation_wizard
+msgid ""
+"This wizard will post installment/depreciation lines for the selected month.<br/>\n"
+"                        This will generate journal entries for all related installment lines on this period of asset/revenue recognition as well."
+msgstr "سيقوم هذا المعالج بترحيل بنود الأقساط / الإهلاك للشهر المحدد. سيؤدي ذلك إلى إنشاء إدخالات دفتر اليومية لجميع بنود الأقساط ذات الصلة في هذه الفترة من إقرار الأصول / الإيرادات أيضًا."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__method_time
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__method_time
+msgid "Time Method"
+msgstr "طريقة الوقت"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "Time Method Based On"
+msgstr "طريقة الوقت على أساس"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__2
+msgid "Title 2 (bold)"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__style_overwrite__3
+msgid "Title 3 (bold, smaller)"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_form
+msgid ""
+"To remind customers of paying their invoices, you can\n"
+"                        define different actions depending on how severely\n"
+"                        overdue the customer is. These actions are bundled\n"
+"                        into follow-up levels that are triggered when the due\n"
+"                        date of an invoice has passed a certain\n"
+"                        number of days. If there are other overdue invoices for the\n"
+"                        same customer, the actions of the most\n"
+"                        overdue invoice will be executed."
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_tree_view
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_agedpartnerbalance
+msgid "Total"
+msgstr "الاجمالي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__total_due
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__total_due
+msgid "Total Due"
+msgstr "الاجمالي المستحق"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Total Expenses"
+msgstr "اجمالي المصروف"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Total Income"
+msgstr "اجمالي الدخل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__total_overdue
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__total_overdue
+msgid "Total Overdue"
+msgstr "إجمالي المتأخرات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_bank_statement_line__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_move__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_payment__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__due_amount
+#: model:ir.model.fields,field_description:base_accounting_kit.field_sale_order__due_amount
+msgid "Total Sale"
+msgstr "اجمالي المبيعات"
+
+#. module: base_accounting_kit
+#: model:ir.actions.act_window,name:base_accounting_kit.action_account_balance_menu
+#: model:ir.actions.report,name:base_accounting_kit.action_report_trial_balance
+#: model:ir.ui.menu,name:base_accounting_kit.menu_Balance_report
+msgid "Trial Balance"
+msgstr "ميزان المراجعة"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_account_balance_report
+#: model:ir.model,name:base_accounting_kit.model_report_base_accounting_kit_report_trial_balance
+msgid "Trial Balance Report"
+msgstr "تقرير ميزان المراجعة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__type
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_category__type
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_financial_report__type
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_search
+msgid "Type"
+msgstr "النوع"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/report/report_aged_partner.py:0
+#, python-format
+msgid "Unknown Partner"
+msgstr "شريك غير معرف"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_asset.js:0
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__journal_state__draft
+#, python-format
+msgid "Unposted"
+msgstr "غير مرحل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__unposted_value
+msgid "Unposted Amount"
+msgstr "مبلغ غير مرحل"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_unread
+msgid "Unread Messages"
+msgstr "رسائل غير مقرؤة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "عداد الرسائل غير المقرؤءة"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#: code:addons/base_accounting_kit/static/src/js/account_dashboard.js:0
+#, python-format
+msgid "Unreconciled"
+msgstr "لم تتم تسويتها"
+
+#. module: base_accounting_kit
+#. openerp-web
+#: code:addons/base_accounting_kit/static/src/xml/template.xml:0
+#, python-format
+msgid "Unreconciled items"
+msgstr "عناصر لم تتم تسويتها"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.account_update_lock_date_form_view
+msgid "Update"
+msgstr "تحديث"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_purchase_tree
+msgid "Vendor"
+msgstr "مورد"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__financial_report__view_format__vertical
+msgid "Vertical"
+msgstr "عمودي"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_financial_report__type__sum
+msgid "View"
+msgstr "عرض"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_partner__warning_stage
+#: model:ir.model.fields,field_description:base_accounting_kit.field_res_users__warning_stage
+msgid "Warning Amount"
+msgstr "مبلغ التحذير"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/credit_limit.py:0
+#, python-format
+msgid "Warning amount should be less than Blocking amount"
+msgstr "يجب أن يكون مبلغ التحذير أقل من مبلغ الحظر"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_asset_asset__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصال الموقع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__weeks
+msgid "Weeks"
+msgstr "أسابيع"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_asset__state
+#: model:ir.model.fields,help:base_accounting_kit.field_account_asset_depreciation_line__parent_state
+msgid ""
+"When an asset is created, the status is 'Draft'.\n"
+"If the asset is confirmed, the status goes in 'Running' and the depreciation lines can be posted in the accounting.\n"
+"You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
+msgstr ""
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_print_journal__amount_currency
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_report_partner_ledger__amount_currency
+msgid "With Currency"
+msgstr "مع العملة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__not_zero
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__not_zero
+msgid "With balance is not equal to 0"
+msgstr "مع رصيد لا يساوي 0"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "With balance not equal to zero"
+msgstr "مع رصيد لا يساوي 0"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_balance_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_bank_book_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_cash_book_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_common_account_report__display_account__movement
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_report_general_ledger__display_account__movement
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_bank_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_cash_book
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_general_ledger
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.report_trial_balance
+msgid "With movements"
+msgstr "مع الحركات"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__res_partner__followup_status__with_overdue_invoices
+msgid "With overdue invoices"
+msgstr "مع الفواتير المتأخرة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_asset_asset_report__name
+msgid "Year"
+msgstr "السنة"
+
+#. module: base_accounting_kit
+#: model:ir.model.fields.selection,name:base_accounting_kit.selection__account_recurring_payments__recurring_period__years
+msgid "Years"
+msgstr "السنوات"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/account_lock_date.py:0
+#, python-format
+msgid "You are not allowed to execute this action."
+msgstr "لا يسمح لك بتنفيذ هذا الإجراء."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,help:base_accounting_kit.field_account_financial_report__style_overwrite
+msgid ""
+"You can set up here the format you want this record to be displayed. If you "
+"leave the automatic formatting, it will be computed based on the financial "
+"reports hierarchy (auto-computed field 'level')."
+msgstr ""
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete a document is in %s state."
+msgstr "لا يمكنك حذف مستند في حالة."
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete a document that contains posted entries."
+msgstr "لا يمكنك حذف مستند يحتوي على قيود تم ترحيلها."
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete posted depreciation lines."
+msgstr "لا يمكنك حذف بنود الإهلاك التي تم ترحيلها."
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/models/account_asset.py:0
+#, python-format
+msgid "You cannot delete posted installment lines."
+msgstr "لا يمكنك حذف سطور الأقساط التي تم ترحيلها."
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/account_bank_book_wizard.py:0
+#: code:addons/base_accounting_kit/wizard/account_cash_book_wizard.py:0
+#, python-format
+msgid "You must choose a Start Date"
+msgstr "يجب عليك اختيار تاريخ البدء"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/general_ledger.py:0
+#, python-format
+msgid "You must define a Start Date"
+msgstr "يجب عليك اختيار تاريخ البدء"
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/aged_partner.py:0
+#, python-format
+msgid "You must set a period length greater than 0."
+msgstr "يجب عليك تعيين طول فترة أكبر من 0."
+
+#. module: base_accounting_kit
+#: code:addons/base_accounting_kit/wizard/aged_partner.py:0
+#, python-format
+msgid "You must set a start date."
+msgstr "يجب عليك وضع تاريخ البدء"
+
+#. module: base_accounting_kit
+#: model:ir.model,name:base_accounting_kit.model_asset_depreciation_confirmation_wizard
+msgid "asset.depreciation.confirmation.wizard"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_followup_followup_line_form
+msgid "days overdue, do the following actions:"
+msgstr "الأيام المتأخرة ، قم بالإجراءات التالية:"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "e.g. Computers"
+msgstr "مثال : حواسيب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_asset_form
+msgid "e.g. Laptop iBook"
+msgstr "مثال: لابتوب"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "has no due amount."
+msgstr "ليس له مبلغ مستحق."
+
+#. module: base_accounting_kit
+#: model:ir.model.fields,field_description:base_accounting_kit.field_account_recurring_entries_line__tmpl_id
+msgid "id"
+msgstr ""
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.asset_modify_form
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.view_account_asset_category_form
+msgid "months"
+msgstr "شهور"
+
+#. module: base_accounting_kit
+#: model_terms:ir.ui.view,arch_db:base_accounting_kit.customer_statements_form_view
+msgid "report"
+msgstr "تقرير"

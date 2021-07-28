@@ -1,0 +1,100 @@
+<odoo>
+    <data>
+        <record id="project_template_tree_view" model="ir.ui.view">
+            <field name="name">project.template.tree</field>
+            <field name="model">project.template</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="project_template_form_view" model="ir.ui.view">
+            <field name="name">project.template.from.view</field>
+            <field name="model">project.template</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                    <button string="Get Summary" class="oe_highlight"
+                            name="get_summary" type="object"/>
+                    </header>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <field name="bom_qtys">
+                            <tree>
+                                <field name="products"/>
+                                <field name="product_price"/>
+                                <field name="product_qty"/>
+                                <field name="to_purchase"/>
+                                <field name="to_sales"/>
+                                <field name="is_service"/>
+                            </tree>
+                        </field>
+                        <group string="Summary">
+                            <field name="summary"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="project_bom_form_view" model="ir.ui.view">
+            <field name="name">project.bom.from.view</field>
+            <field name="model">project.bom</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="products"/>
+                                <field name="product_price"/>
+                                <field name="product_qty"/>
+                            </group>
+                            <group string="Material Status">
+                                <field name="to_purchase"/>
+                                <field name="to_sales"/>
+                                <field name="is_service"/>
+                            </group>
+                        </group>
+                        <group string="Calculations" attrs="{'invisible': [('is_service', '=', False)]}">
+                            <group>
+                                <field name="exp_hours" required="1" widget="float_time"/>
+                                <field name="no_persons"/>
+                                <button name="calculate_hours" type="object" string="Calculate"
+                                    class="btn btn-info mx-3"/>
+                            </group>
+                            <group>
+                                <field name="total_amount" readonly="1" widget="monetary"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="purchase_order_project_form" model="ir.ui.view">
+            <field name="name">purchase.order.from.project</field>
+            <field name="model">purchase.order</field>
+            <field name="inherit_id" ref="purchase.purchase_order_form"/>
+            <field name="arch" type="xml">
+                <field name="partner_ref" position="after">
+                    <field name="project_temp"/>
+                </field>
+            </field>
+        </record>
+
+        <record id="project_template_form" model="ir.actions.act_window">
+            <field name="name">Project Template</field>
+            <field name="res_model">project.template</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="menu_project_template"
+                  name="Project Template"
+                  action="project_template_form"
+                  parent="project.menu_main_pm" sequence="4"/>
+    </data>
+</odoo>

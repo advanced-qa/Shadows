@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="document_management.action_document_directory" model="ir.actions.act_window">
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="context">{'search_default_master_folder': 1}</field>
+    </record>
+
+    <record id="view_document_kanban" model="ir.ui.view">
+        <field name="name">document.directory.kanban</field>
+        <field name="model">document.directory</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_document">
+                <field name="id"/>
+                <field name="name"/>
+                <field name="color"/>
+                <field name="parent_id"/>
+                <field name="document_count"/>
+                <field name="department_id"/>
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="#{kanban_color(record.color.raw_value)} oe_kanban_global_click">
+                            <div class="o_dropdown_kanban dropdown">
+                                <a role="button" class="dropdown-toggle o-no-caret btn" data-toggle="dropdown"
+                                   data-display="static" href="#" aria-label="Dropdown menu" title="Dropdown menu">
+                                    <span class="fa fa-ellipsis-v"/>
+                                </a>
+                                <div class="dropdown-menu" role="menu">
+                                    <a role="menuitem" type="open" class="dropdown-item">Open</a>
+                                    <a t-if="widget.editable" role="menuitem" type="edit" class="dropdown-item">Edit</a>
+                                    <a t-if="widget.deletable" role="menuitem" type="delete" class="dropdown-item">
+                                        Delete
+                                    </a>
+                                    <div role="separator" class="dropdown-divider"/>
+                                    <ul class="oe_kanban_colorpicker" data-field="color"/>
+                                </div>
+                            </div>
+                            <div t-attf-class="oe_kanban_content">
+                                <div class="o_kanban_image">
+                                    <t t-if="record.parent_id.value">
+                                        <img src="/document_additional/static/description/red.png" alt="icon"/>
+                                    </t>
+                                    <t t-if="!record.parent_id.value">
+                                        <img src="/document_additional/static/description/parent_doc.jpg" alt="icon"/>
+                                    </t>
+                                </div>
+                                <div class="oe_kanban_details">
+                                    <ul>
+                                        <li>
+                                            <strong>
+                                                <t t-esc="record.name.value"/>
+                                            </strong>
+                                        </li>
+                                        <li>
+                                            <strong>
+                                                Documents:
+                                                <t t-esc="record.document_count.value"/>
+                                            </strong>
+                                        </li>
+                                        <li>
+                                            <t t-if="record.department_id.value">
+                                                Department:
+                                                <t t-esc="record.department_id.value"/>
+                                            </t>
+                                        </li>
+                                        <li>
+                                            <t t-if="record.parent_id.value">
+                                                Parent Dir:
+                                                <t t-esc="record.parent_id.value"/>
+                                            </t>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+    <record id="new_filter" model="ir.ui.view">
+        <field name="name">document.directory.filter</field>
+        <field name="model">document.directory</field>
+        <field name="inherit_id" ref="document_management.view_document_directory_filter"/>
+        <field name="arch" type="xml">
+            <xpath expr="//search" position="inside">
+                <filter string="Master Folders" name="master_folder" domain="[('set_master_dir', '=', True)]"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="document_directory_additional" model="ir.ui.view">
+        <field name="name">document.directory.additional</field>
+        <field name="model">document.directory</field>
+        <field name="inherit_id" ref="document_management.document_directory_form_view"/>
+        <field name="arch" type="xml">
+            <field name="department_id" position="after">
+                <field name="workspace"/>
+                <field name="set_master_dir"/>
+                <field name="main_directory" invisible="1"/>
+            </field>
+            <field name="company_id" position="replace">
+                <field name="company_id" groups="base.group_multi_company" widget="many2many_tags"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>

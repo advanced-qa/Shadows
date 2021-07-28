@@ -1,0 +1,108 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* accounting_dynamic_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-13 10:53+0000\n"
+"PO-Revision-Date: 2021-03-13 10:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: accounting_dynamic_reports
+#. openerp-web
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#, python-format
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: accounting_dynamic_reports
+#. openerp-web
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#, python-format
+msgid "Credit"
+msgstr "الدائن"
+
+#. module: accounting_dynamic_reports
+#. openerp-web
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#, python-format
+msgid "Debit"
+msgstr "المدين"
+
+#. module: accounting_dynamic_reports
+#: model:ir.model.fields,field_description:accounting_dynamic_reports.field_financial_report__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: accounting_dynamic_reports
+#: model_terms:ir.ui.view,arch_db:accounting_dynamic_reports.financial_report_dynamic_view
+msgid "Excel"
+msgstr "تصدير ل اكسل"
+
+#. module: accounting_dynamic_reports
+#: model:ir.actions.report,name:accounting_dynamic_reports.financial_report_export_pdf
+msgid "Export to PDF"
+msgstr "تصدير ل PDF"
+
+#. module: accounting_dynamic_reports
+#. openerp-web
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#, python-format
+msgid "Export(XLSX)"
+msgstr "اصدير (اكسل)"
+
+#. module: accounting_dynamic_reports
+#: model:ir.model,name:accounting_dynamic_reports.model_financial_report
+msgid "Financial Reports"
+msgstr "التقارير المالية"
+
+#. module: accounting_dynamic_reports
+#: model:ir.model.fields,field_description:accounting_dynamic_reports.field_financial_report__view_format
+msgid "Format"
+msgstr "صيغة"
+
+#. module: accounting_dynamic_reports
+#: model:ir.model.fields.selection,name:accounting_dynamic_reports.selection__financial_report__view_format__horizontal
+msgid "Horizontal"
+msgstr "أفقي"
+
+#. module: accounting_dynamic_reports
+#: model:ir.model.fields,field_description:accounting_dynamic_reports.field_financial_report__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: accounting_dynamic_reports
+#: model:ir.model.fields,field_description:accounting_dynamic_reports.field_financial_report____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: accounting_dynamic_reports
+#. openerp-web
+#: code:addons/accounting_dynamic_reports/static/src/xml/report_tmpl.xml:0
+#, python-format
+msgid "Print"
+msgstr "طباعة"
+
+#. module: accounting_dynamic_reports
+#: model:ir.model.fields.selection,name:accounting_dynamic_reports.selection__financial_report__view_format__vertical
+msgid "Vertical"
+msgstr "عمودي"
+
+#. module: accounting_dynamic_reports
+#: model_terms:ir.ui.view,arch_db:accounting_dynamic_reports.financial_report_dynamic_view
+msgid "view"
+msgstr "عرض"

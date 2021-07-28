@@ -1,0 +1,226 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* advance_cash_flow_statements
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-04 13:36+0000\n"
+"PO-Revision-Date: 2020-10-04 13:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "<b>Report Date :</b>"
+msgstr "تاريخ التقرير"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid ""
+"<br/>\n"
+"                                <strong>Date to :</strong>"
+msgstr "الى تاريخ"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "<strong>Date from :</strong>"
+msgstr "من تاريخ"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "<strong>Target Moves:</strong>"
+msgstr "<strong>الحركات المستهدفة:</strong>"
+
+#. module: advance_cash_flow_statements
+#: model:ir.ui.menu,name:advance_cash_flow_statements.menu_account_wizard
+msgid "Adv Cash Flow Statement"
+msgstr "متقدم كشف التدفقات النقدية"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "All Entries"
+msgstr "كافة القيود"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "All Posted Entries"
+msgstr "كل القيود المرحلة"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.account_wizard_view
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: advance_cash_flow_statements
+#: model:ir.actions.act_window,name:advance_cash_flow_statements.action_account_wizard
+msgid "Cash Flow Statements"
+msgstr "كشف التدفقات النقدية"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "Cash Flow statements"
+msgstr "كشف التدفقات النقدية"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "Cash In"
+msgstr "التدفقات النقدية الداخلة"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "Cash Out"
+msgstr "التدفقات النقدية الخارجة"
+
+#. module: advance_cash_flow_statements
+#: model:ir.actions.report,name:advance_cash_flow_statements.pdf_report
+msgid "Cash flow statement Pdf Report"
+msgstr "تقرير Pdf بيان التدفق النقدي"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields.selection,name:advance_cash_flow_statements.selection__account_wizard__levels__consolidated
+msgid "Consolidated"
+msgstr "مدمج"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields.selection,name:advance_cash_flow_statements.selection__account_wizard__levels__detailed
+msgid "Detailed"
+msgstr "مفصل"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,help:advance_cash_flow_statements.field_account_wizard__levels
+msgid ""
+"Different levels for cash flow statements \n"
+"Summary: Month wise report.\n"
+"Consolidated: Based on account types.\n"
+"Detailed: Based on accounts.\n"
+"Very Detailed: Accounts with their move lines"
+msgstr ""
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__display_name
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_report_advance_cash_flow_statements_cash_flow_pdf_report__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__date_to
+msgid "End Date"
+msgstr "تاريخ الانتهاء"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.account_wizard_view
+msgid "Excel"
+msgstr "اكسل"
+
+#. module: advance_cash_flow_statements
+#: model:ir.ui.menu,name:advance_cash_flow_statements.menu_financial_reports
+msgid "Financial reports"
+msgstr "تقارير مالية"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__id
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_report_advance_cash_flow_statements_cash_flow_pdf_report__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__journal_ids
+msgid "Journals"
+msgstr "دفاتر اليومية"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard____last_update
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_report_advance_cash_flow_statements_cash_flow_pdf_report____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__levels
+msgid "Levels"
+msgstr "مستويات"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.cash_flow_pdf_report
+msgid "Name"
+msgstr "الاسم"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.account_wizard_view
+msgid "PDF"
+msgstr "PDF"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__today
+msgid "Report Date"
+msgstr "تاريخ التقرير"
+
+#. module: advance_cash_flow_statements
+#: model_terms:ir.ui.view,arch_db:advance_cash_flow_statements.account_wizard_view
+msgid "Report Options"
+msgstr "خيارات التقرير"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__date_from
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields.selection,name:advance_cash_flow_statements.selection__account_wizard__levels__summary
+msgid "Summary"
+msgstr "ملخص"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields,field_description:advance_cash_flow_statements.field_account_wizard__target_move
+msgid "Target Moves"
+msgstr "القيود"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model.fields.selection,name:advance_cash_flow_statements.selection__account_wizard__levels__very
+msgid "Very Detailed"
+msgstr "مفصل جدا"
+
+#. module: advance_cash_flow_statements
+#: model:ir.model,name:advance_cash_flow_statements.model_account_wizard
+msgid "account.wizard"
+msgstr ""
+
+#. module: advance_cash_flow_statements
+#: model:ir.model,name:advance_cash_flow_statements.model_report_advance_cash_flow_statements_cash_flow_pdf_report
+msgid "report.advance_cash_flow_statements.cash_flow_pdf_report"
+msgstr ""

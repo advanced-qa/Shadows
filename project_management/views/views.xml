@@ -1,0 +1,149 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="project_form_modification">
+            <field name="name">project.form.modification</field>
+            <field name="model">project.project</field>
+            <field name="inherit_id" ref="project.edit_project"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('oe_title')]" position="after">
+                    <group>
+                        <group>
+                            <field name="budget" attrs="{'readonly': [('compute_field', '=', True)]}"/>
+                            <field name="compute_field" invisible="1"/>
+                            <field name="project_lock" attrs="{'readonly': [('compute_field', '=', True)]}"/>
+                            <field name="current_purchased" widget="monetary"/>
+                            <field name="current_expensed" widget="monetary"/>
+                            <field name="project_warehouse" attrs="{'readonly': [('compute_field', '=', True)]}"/>
+                            <field name="project_set" invisible="1"/>
+                        </group>
+                    </group>
+                </xpath>
+                <field name="name" position="attributes">
+                    <attribute name="attrs">{'readonly': [('compute_field', '=', True)]}</attribute>
+                </field>
+                <field name="label_tasks" position="attributes">
+                    <attribute name="attrs">{'readonly': [('compute_field', '=', True)]}</attribute>
+                </field>
+                <field name="description" position="attributes">
+                    <attribute name="attrs">{'readonly': [('compute_field', '=', True)]}</attribute>
+                </field>
+                <xpath expr="//page[@name='settings']" position="attributes">
+                    <attribute name="attrs">{'invisible': [('compute_field', '=', True)]}</attribute>
+                </xpath>
+
+                <xpath expr="//page[@name='description_page']" position="after">
+                    <page name="project_phases" string="Project Phases">
+                        <field name="project_phases" context="{'default_project_id': active_id}"
+                               domain="[('project_id', '=', active_id)]"/>
+                    </page>
+                    <page name="project_to_do" string="Project To-Do"
+                          attrs="{'invisible': [('project_set', '=', False)]}">
+                        <field name="project_todo" context="{'default_project_id': active_id}"
+                               domain="[('project_id', '=', active_id)]"
+                               attrs="{'readonly': [('project_lock', '=', 'lock')]}">
+                            <tree editable="top">
+                                <field name="name"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page name="project_planing" string="Project Planning">
+                        <field name="project_planning">
+                            <tree editable="bottom">
+                                <field name="product_id"/>
+                                <field name="product_count"/>
+                                <field name="product_price"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page name="project_purchases" string="Purchase"
+                          attrs="{'invisible': [('project_set', '=', False)]}">
+                        <field name="project_purchases" context="{'default_project_id': active_id}"
+                               domain="[('project_id', '=', active_id)]"
+                               attrs="{'readonly': [('project_lock', '=', 'lock')]}">
+                            <tree>
+                                <field name="name"/>
+                                <field name="date_order"/>
+                                <field name="amount_total"/>
+                                <field name="state"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page name="project_expenses" string="Expenses"
+                          attrs="{'invisible': [('project_set', '=', False)]}">
+                        <field name="project_expenses" context="{'default_project_id': active_id}"
+                               domain="[('project_id', '=', active_id)]"
+                               attrs="{'readonly': [('project_lock', '=', 'lock')]}">
+                            <tree>
+                                <field name="date"/>
+                                <field name="name"/>
+                                <field name="employee_id"/>
+                                <field name="payment_mode"/>
+                                <field name="total_amount"/>
+                                <field name="state"/>
+                            </tree>
+                        </field>
+                    </page>
+                    <page name="project_assets" string="Assets" attrs="{'invisible': [('project_set', '=', False)]}">
+                        <field name="project_assets" context="{'default_project_id': active_id}"
+                               domain="[('project_id', '=', active_id)]"
+                               attrs="{'readonly': [('project_lock', '=', 'lock')]}">
+                            <tree>
+                                <field name="name"/>
+                                <field name="category_id"/>
+                                <field name="date"/>
+                                <field name="partner_id"/>
+                                <field name="value"/>
+                                <field name="value_residual"/>
+                                <field name="state"/>
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_contract_for_project" model="ir.ui.view">
+            <field name="name">view.contract.for.project</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='action_confirm'][2]" position="attributes">
+                    <attribute name="attrs">{'invisible': [('state', 'not in', ['planning'])]}</attribute>
+                </xpath>
+                <xpath expr="//button[@name='action_view_invoice']" position="before">
+                    <button type="object" name="action_view_contract" class="oe_stat_button" icon="fa-file"
+                            string="Contract"
+                            attrs="{'invisible': [('tasks_count', '=', 0)]}" groups="project.group_project_manager">
+                    </button>
+                </xpath>
+                <field name="state" position="replace">
+                    <field name="state" widget="statusbar" statusbar_visible="draft,planning,sent,sale"/>
+                </field>
+                <xpath expr="//header" position="inside">
+                    <button name="action_planning"
+                        string="Set to planning" type="object"
+                        attrs="{'invisible': [('state', 'not in', ['draft'])]}"/>
+                </xpath>
+                <field name="payment_term_id" position="after">
+                    <field name="project_name"/>
+                    <field name="project_temp"/>
+                    <field name="contract_selection" attrs="{'readonly': [('state', 'not in', ('draft', 'sent'))]}"/>
+                </field>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_project_kanban_users_edit">
+            <field name="name">project.project.kanban.users.edit</field>
+            <field name="model">project.project</field>
+            <field name="inherit_id" ref="project.view_project_kanban"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[hasclass('o_kanban_card_manage_pane')]" position="attributes">
+                    <attribute name="groups">project.group_project_user</attribute>
+                </xpath>
+                <xpath expr="//a[hasclass('o_kanban_manage_toggle_button')]" position="attributes">
+                    <attribute name="groups">project.group_project_user</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

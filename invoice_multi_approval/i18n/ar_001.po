@@ -1,0 +1,441 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* invoice_multi_approval
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-13 12:01+0000\n"
+"PO-Revision-Date: 2021-03-13 12:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: invoice_multi_approval
+#: model:ir.module.category,description:invoice_multi_approval.group_invoice_multi_approval
+msgid "Access to the invoice approval menu"
+msgstr "الوصول إلى قائمة الموافقة على الفاتورة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_needaction
+msgid "Action Needed"
+msgstr "اجراء مطلوب"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_ids
+msgid "Activities"
+msgstr "انشطة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_state
+msgid "Activity State"
+msgstr "حالة النشاط"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "ايقونة نوع النشاط"
+
+#. module: invoice_multi_approval
+#: model_terms:ir.ui.view,arch_db:invoice_multi_approval.invoice_approval_form_view
+msgid "Apply"
+msgstr "تطبيق"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_bank_statement_line__approval_ids
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move__approval_ids
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_payment__approval_ids
+msgid "Approval"
+msgstr "موافقة"
+
+#. module: invoice_multi_approval
+#: model:ir.model,name:invoice_multi_approval.model_approval_line
+msgid "Approval line in Move"
+msgstr "موافقة البند في الحركة"
+
+#. module: invoice_multi_approval
+#: model_terms:ir.ui.view,arch_db:invoice_multi_approval.account_move_approval_inherited
+msgid "Approval lines"
+msgstr "موافقة البنود"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__approve_customer_invoice
+msgid "Approval on Customer Invoice"
+msgstr "موافقة على فاتورة العميل"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__approve_customer_credit
+msgid "Approval on Customer Refund"
+msgstr "موافقة على فاتورة العميل المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__approve_vendor_bill
+msgid "Approval on Vendor Bill"
+msgstr "موافقة على فاتورة المورد"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__approve_vendor_credit
+msgid "Approval on Vendor Refund"
+msgstr "موافقة على فاتورة المورد المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.ui.menu,name:invoice_multi_approval.approval_main_menu
+#: model_terms:ir.ui.view,arch_db:invoice_multi_approval.account_move_approval_inherited
+msgid "Approvals"
+msgstr "الموافقات"
+
+#. module: invoice_multi_approval
+#: model_terms:ir.ui.view,arch_db:invoice_multi_approval.account_move_approval_inherited
+msgid "Approve"
+msgstr "موافقة"
+
+#. module: invoice_multi_approval
+#: model:res.groups,name:invoice_multi_approval.group_approve_manager
+msgid "Approve Manager"
+msgstr "موافقة المدير"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__approver_id
+msgid "Approver"
+msgstr "الموافق"
+
+#. module: invoice_multi_approval
+#: model:res.groups,name:invoice_multi_approval.group_approver
+msgid "Approvers"
+msgstr "الموافقين"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__bill_approver_ids
+msgid "Bill Approver"
+msgstr "موافق الفواتير"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_bank_statement_line__check_approve_ability
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move__check_approve_ability
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_payment__check_approve_ability
+msgid "Check Approve Ability"
+msgstr "تحقق من إمكانية الموافقة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__create_uid
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__create_uid
+msgid "Created by"
+msgstr "انشا بواسطة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__create_date
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__create_date
+msgid "Created on"
+msgstr "انشا في تاريخ"
+
+#. module: invoice_multi_approval
+#: model_terms:ir.ui.view,arch_db:invoice_multi_approval.invoice_approval_form_view
+msgid "Customer Configuration"
+msgstr "اعدادات العميل"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__cust_credit_approver_ids
+msgid "Customer Credit Note Approver"
+msgstr "الموافق على فاتورة العميل المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move__display_name
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__display_name
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_bank_statement_line__document_fully_approved
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move__document_fully_approved
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_payment__document_fully_approved
+msgid "Document Fully Approved"
+msgstr "تمت الموافقة على المستند بالكامل"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__approve_vendor_bill
+msgid "Enable this field for adding the approvals for the Vendor bill"
+msgstr "قم بتمكين هذا الحقل لإضافة الموافقات لفاتورة المورد"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__approve_vendor_credit
+msgid "Enable this field for adding the approvals for the Vendor credit note"
+msgstr "قم بتمكين هذا الحقل لإضافة الموافقات لفاتورة البائع المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__approve_customer_credit
+msgid ""
+"Enable this field for adding the approvals for the customer credit note"
+msgstr "قم بتمكين هذا الحقل لإضافة الموافقات لفاتورة العميل المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__approve_customer_invoice
+msgid "Enable this field for adding the approvals for the customer invoice"
+msgstr "قم بتمكين هذا الحقل لإضافة الموافقات لفاتورة العميل"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_follower_ids
+msgid "Followers"
+msgstr "متابعين"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "متابعين (قنوات)"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "متابعين (شركاء)"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move__id
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__id
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__message_needaction
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "إذا تم تحديدها ، فإن الرسائل الجديدة تتطلب انتباهك"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__message_has_error
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "إذا تم تحديده ، فإن بعض الرسائل بها خطأ في التسليم."
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__cust_credit_approver_ids
+msgid "In this field you can add the approvers for the Customer credit note"
+msgstr "في هذا الحقل ، يمكنك إضافة الموافقين على فاتورة العميل المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__bill_approver_ids
+msgid "In this field you can add the approvers for the Vendor bill"
+msgstr "في هذا الحقل ، يمكنك إضافة الموافقين على فاتورة المورد "
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__vend_credit_approver_ids
+msgid "In this field you can add the approvers for the Vendor credit note"
+msgstr "في هذا الحقل ، يمكنك إضافة الموافقين على فاتورة المورد المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__invoice_approver_ids
+msgid "In this field you can add the approvers for the customer invoice"
+msgstr "في هذا الحقل ، يمكنك إضافة الموافقين على فاتورة العميل "
+
+#. module: invoice_multi_approval
+#: model:ir.model,name:invoice_multi_approval.model_invoice_approval
+#: model:ir.module.category,name:invoice_multi_approval.group_invoice_multi_approval
+#: model:ir.ui.menu,name:invoice_multi_approval.approval_sub_menu
+msgid "Invoice Approval"
+msgstr "الموافقة على الفاتورة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__invoice_approver_ids
+msgid "Invoice Approver"
+msgstr "الموافق على الفاتورة"
+
+#. module: invoice_multi_approval
+#: model:ir.actions.act_window,name:invoice_multi_approval.approval_sub_menu_action
+msgid "Invoice Multi Approval"
+msgstr "موافقة عدة فواتير"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_bank_statement_line__is_approved
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move__is_approved
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_payment__is_approved
+msgid "Is Approved"
+msgstr "تمت الموافقة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_is_follower
+msgid "Is Follower"
+msgstr "هو متابع"
+
+#. module: invoice_multi_approval
+#: model:ir.model,name:invoice_multi_approval.model_account_move
+msgid "Journal Entry"
+msgstr "قيد اليومية"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move____last_update
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line____last_update
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__write_uid
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__write_date
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في تاريخ"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق الرئيسي"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في تسليم الرسالة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_ids
+msgid "Messages"
+msgstr "رسائل"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__move_id
+msgid "Move"
+msgstr "حركة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__name
+msgid "Name"
+msgstr "اسم"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "الموعد النهائي للنشاط التالي"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد الاجراءات"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الاخطاء"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "عدد الرسائل التي تتطلب اتخاذ إجراء"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل التي بها خطأ في التسليم"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__message_unread_counter
+msgid "Number of unread messages"
+msgstr "عدد الرسائل غير المقروءة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_bank_statement_line__page_visibility
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_move__page_visibility
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_account_payment__page_visibility
+msgid "Page Visibility"
+msgstr "رؤية الصفحة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسئؤل"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_approval_line__approval_status
+msgid "Status"
+msgstr "الحالات"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "نوع نشاط الاستثناء المسجل."
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_unread
+msgid "Unread Messages"
+msgstr "رسائل غير مقروءة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "عداد الرسائل غير مقروءة"
+
+#. module: invoice_multi_approval
+#: model_terms:ir.ui.view,arch_db:invoice_multi_approval.invoice_approval_form_view
+msgid "Vendor Configuration"
+msgstr "اعدادات الموردين"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__vend_credit_approver_ids
+msgid "Vendor Credit Note Approver"
+msgstr "الموافق على فاتورة المورد المرتجعة"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,field_description:invoice_multi_approval.field_invoice_approval__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع"
+
+#. module: invoice_multi_approval
+#: model:ir.model.fields,help:invoice_multi_approval.field_invoice_approval__website_message_ids
+msgid "Website communication history"
+msgstr "سجل اتصال الموقع"

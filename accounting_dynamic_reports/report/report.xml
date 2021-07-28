@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <report
+            id="financial_report_export_pdf"
+            model="financial.report"
+            string="Export to PDF"
+            report_type="qweb-pdf"
+            name="accounting_dynamic_reports.report_financial_pdf"
+            file="accounting_dynamic_reports.report_financial_pdf"
+    />
+</odoo>

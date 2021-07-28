@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <!--    Financial report dynamic view form   -->
+        <record id="financial_report_dynamic_view" model="ir.ui.view">
+            <field name="name">financial.report.view.extended</field>
+            <field name="model">financial.report</field>
+            <field name="inherit_id" ref="base_accounting_kit.financial_report_wiz_modified"/>
+            <field name="arch" type="xml">
+                <xpath expr="//button[@name='view_report_pdf']" position="before">
+                    <button string="view" name="view_report" type="object" class="btn-primary"/>
+                </xpath>
+                <xpath expr="//button[@name='view_report_pdf']" position="after">
+                    <button string="Excel" name="view_report_xlsx" type="object" class="btn-primary"/>
+                </xpath>
+                <xpath expr="//field[@name='debit_credit']" position="before">
+                    <field name="view_format" widget="radio"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

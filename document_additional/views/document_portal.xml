@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="portal_documents" name="portal_documents" inherit_id="portal.portal_my_home"
+                  priority="20">
+            <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+                <a class="list-group-item list-group-item-action d-flex align-items-center justify-content-between"
+                   href="/my/documents">
+                    <span>My Documents</span>
+                    <span class="badge badge-secondary badge-pill" t-esc="document_count"/>
+                </a>
+            </xpath>
+        </template>
+
+        <template id="portal_document_details" name="portal_document_details">
+            <t t-call="portal.portal_layout">
+                <h5 class="page-header">Available Documents</h5>
+                <div class="row">
+                    <div class="container mb64">
+                        <table class="table table-hover table-striped" style="width:100%">
+                            <thead>
+                                <tr style="text-align:center">
+                                    <th>
+                                        <b>Document Name</b>
+                                    </th>
+                                    <th>
+                                        <b>Directory</b>
+                                    </th>
+                                    <th>
+                                        <b>Collaborators</b>
+                                    </th>
+                                    <th>
+                                        <b>Type</b>
+                                    </th>
+                                    <th>
+                                        <b>Expiry Date</b>
+                                    </th>
+                                    <th>
+                                        <b>Download</b>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-foreach="documents" t-as="document">
+                                    <tr style="text-align:center">
+                                        <td>
+                                            <p>
+                                                <t t-esc="document.name"/>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <t t-if="document.directory_id" t-esc="document.directory_id.name"/>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <t t-foreach="documents.user_ids" t-as="users">
+                                                    <li>
+                                                        <t t-esc="users.name"/>
+                                                    </li>
+                                                </t>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <t t-esc="document.mimetype"/>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <t t-if="document.expiry_date" t-esc="document.expiry_date"/>
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <t>
+                                                <a t-att-href="'/attachment/download?attachment_id=%i' % document.id">
+                                                    <span class="fa fa-download"/>
+                                                </a>
+                                            </t>
+                                        </td>
+                                    </tr>
+                                </t>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+    </data>
+</odoo>

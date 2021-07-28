@@ -1,0 +1,1004 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_reports_xlsx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-13 12:28+0000\n"
+"PO-Revision-Date: 2021-03-13 12:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_aged_balance_view
+msgid ""
+"<span> Aged Partner Balance is a more detailed report of your receivables by"
+" intervals. Odoo calculates a table of credit balance by start Date. So if "
+"you request an interval of 30 days Odoo generates an analysis of creditors "
+"for the past month, past two months, and so on. </span>"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+msgid "<span>Not due</span>"
+msgstr "غير مستحق"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+msgid "<span>Partners</span>"
+msgstr "الشركاء"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+msgid "<span>Total</span>"
+msgstr "الاجمالي"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+msgid "<strong>Company:</strong>"
+msgstr "الشركة:"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+msgid "<strong>Date from :</strong>"
+msgstr "من تاريخ :"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+msgid "<strong>Date to :</strong>"
+msgstr "الى تاريخ :"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+msgid "<strong>Partner's:</strong>"
+msgstr "الشركاء :"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+msgid "<strong>Period Length (days)</strong>"
+msgstr "طول الفترو (ايام)"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+msgid "<strong>Start Date:</strong>"
+msgstr "تاريخ البداية"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+msgid "<strong>Target Moves:</strong>"
+msgstr "القيود"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "Account"
+msgstr "الحساب"
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_account_aged_trial_balance_xlsx
+msgid "Account Aged Trial balance Report"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_account_financial_report
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__children_ids
+msgid "Account Report"
+msgstr "تقرير الحساب"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__account_report_id
+#, python-format
+msgid "Account Reports"
+msgstr "تقارير الحسابات"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#, python-format
+msgid "Account Total"
+msgstr "اجمالي الحساب"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__type__account_type
+msgid "Account Type"
+msgstr "نوع الحساب"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__account_type_ids
+msgid "Account Types"
+msgstr "انواع الحسابات"
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_accounting_report_xlsx
+msgid "Accounting Report"
+msgstr "تقارير المحاسبة"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__account_ids
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__type__accounts
+msgid "Accounts"
+msgstr "الحسابات"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: model:ir.actions.act_window,name:account_reports_xlsx.action_account_aged_balance_view
+#: model:ir.ui.menu,name:account_reports_xlsx.menu_aged_trial_balance
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#, python-format
+msgid "Aged Partner Balance"
+msgstr "رصيد الشريك المستحق"
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_report_account_reports_xlsx_report_agedpartnerbalance
+msgid "Aged Partner Balance Report"
+msgstr "تقرير رصيد الشريك المستحق"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_general_ledger_xlsx__display_account__all
+#, python-format
+msgid "All"
+msgstr "الكل"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_aged_trial_balance_xlsx__target_move__all
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_general_ledger_xlsx__target_move__all
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_partner_ledger_xlsx__target_move__all
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__accounting_report_xlsx__target_move__all
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "All Entries"
+msgstr "كل القيود"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_aged_trial_balance_xlsx__target_move__posted
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_general_ledger_xlsx__target_move__posted
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_partner_ledger_xlsx__target_move__posted
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__accounting_report_xlsx__target_move__posted
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "All Posted Entries"
+msgstr "كل اليود المرحلة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "All accounts"
+msgstr "كل الحسابات"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "All entries"
+msgstr "كل القيود"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "All posted entries"
+msgstr "كل اليود المرحلة"
+
+#. module: account_reports_xlsx
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_assets0
+msgid "Assets"
+msgstr "الاصول"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__style_overwrite__0
+msgid "Automatic formatting"
+msgstr "تنسيق تلقائي"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: account_reports_xlsx
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_balancesheet0
+#: model:ir.actions.act_window,name:account_reports_xlsx.action_account_report_bs
+msgid "Balance Sheet"
+msgstr "الميزانية العمومية"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_common_report_view
+msgid "Cancel"
+msgstr "الغاء"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__label_filter
+#, python-format
+msgid "Column Label"
+msgstr "تسمية العمود"
+
+#. module: account_reports_xlsx
+#: model:ir.actions.act_window,name:account_reports_xlsx.action_account_common_menu
+msgid "Common Report"
+msgstr "التقرير المشترك"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__company_id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__company_id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__company_id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__company_id
+#, python-format
+msgid "Company"
+msgstr "الشركة"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.accounting_report_view
+msgid "Comparison"
+msgstr "المقارنة"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__create_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__create_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__create_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__create_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__create_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__create_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__create_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__create_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "Credit"
+msgstr "الدائن"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "Currency"
+msgstr "العملة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_general_ledger_xlsx__sortby__sort_date
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__accounting_report_xlsx__filter_cmp__filter_date
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#, python-format
+msgid "Date From:"
+msgstr "من تاريخ"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#, python-format
+msgid "Date from:"
+msgstr "من تاريخ"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#, python-format
+msgid "Date to:"
+msgstr "الى تاريخ"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.accounting_report_view
+msgid "Dates"
+msgstr "التواريخ"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "Debit"
+msgstr "المدين"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "Display Account"
+msgstr "عرض الحساب"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__display_account
+#, python-format
+msgid "Display Accounts"
+msgstr "عرض الحسابات"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__debit_credit
+#, python-format
+msgid "Display Debit/Credit Columns"
+msgstr " عرض عمود الدائن/المدين"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_report_financial__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_report_generalledger__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_reports_xlsx_report_agedpartnerbalance__display_name
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_reports_xlsx_report_partnerledger__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__display_detail__detail_flat
+msgid "Display children flat"
+msgstr "عرض مسطح"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__display_detail__detail_with_hierarchy
+msgid "Display children with hierarchy"
+msgstr "عرض هرمي"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__display_detail
+msgid "Display details"
+msgstr "عرض التفاصيل"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__enable_filter
+#, python-format
+msgid "Enable Comparison"
+msgstr "تفعيل المقارنة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__date_to
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__date_to
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__date_to
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__date_to
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__date_to_cmp
+#, python-format
+msgid "End Date"
+msgstr "تاريخ النهاية"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "Entry Label"
+msgstr "تسمية القيد"
+
+#. module: account_reports_xlsx
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_expense0
+msgid "Expense"
+msgstr "مصروف"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__filter_cmp
+#, python-format
+msgid "Filter by"
+msgstr "فلتر بواسطة"
+
+#. module: account_reports_xlsx
+#: model:ir.ui.menu,name:account_reports_xlsx.menu_account_report
+msgid "Financial Report"
+msgstr "التقرير المالي"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__style_overwrite
+msgid "Financial Report Style"
+msgstr "نمط التقرير المالي"
+
+#. module: account_reports_xlsx
+#: model:ir.actions.act_window,name:account_reports_xlsx.action_account_report
+msgid "Financial Reports"
+msgstr "التقارير المالية"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,help:account_reports_xlsx.field_account_financial_report__sign
+msgid ""
+"For accounts that are typically more debited than credited and that you "
+"would like to print as negative amounts in your reports, you should reverse "
+"the sign of the balance; e.g.: Expense account. The same applies for "
+"accounts that are typically more credited than debited and that you would "
+"like to print as positive amounts in your reports; e.g.: Income account."
+msgstr ""
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/models/account_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/models/account_general_ledger.py:0
+#: code:addons/account_reports_xlsx/models/account_partner_ledger.py:0
+#: code:addons/account_reports_xlsx/report/account_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_financial.py:0
+#, python-format
+msgid "Form content is missing, this report cannot be printed."
+msgstr "محتوى النموذج مفقود ، لا يمكن طباعة هذا التقرير."
+
+#. module: account_reports_xlsx
+#: model:ir.actions.act_window,name:account_reports_xlsx.action_account_general_ledger_menu
+#: model:ir.ui.menu,name:account_reports_xlsx.menu_general_ledger
+msgid "General Ledger"
+msgstr "دفتر الاستاذ العام"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model,name:account_reports_xlsx.model_account_report_general_ledger_xlsx
+#, python-format
+msgid "General Ledger Report"
+msgstr "تقرير دفتر الاستاذ العام"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_report_financial__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_report_generalledger__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_reports_xlsx_report_agedpartnerbalance__id
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_reports_xlsx_report_partnerledger__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,help:account_reports_xlsx.field_account_report_general_ledger_xlsx__initial_balance
+msgid ""
+"If you selected date, this field allow you to add a row to display the "
+"amount of debit/credit/balance that precedes the filter you've set."
+msgstr "إذا حددت التاريخ ، فسيتيح لك هذا الحقل إضافة صف لعرض مبلغ الخصم / الائتمان / الرصيد الذي يسبق عامل التصفية الذي قمت بتعيينه."
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__initial_balance
+#, python-format
+msgid "Include Initial Balances"
+msgstr "قم بتضمين الأرصدة الأولية"
+
+#. module: account_reports_xlsx
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_income0
+msgid "Income"
+msgstr "الدخل"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,help:account_reports_xlsx.field_account_report_partner_ledger_xlsx__amount_currency
+msgid ""
+"It adds the currency column on report if the currency differs from the "
+"company currency."
+msgstr "يضيف عمود العملة في التقرير إذا كانت العملة تختلف عن عملة الشركة."
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__style_overwrite__5
+msgid "Italic Text (smaller)"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "JRNL"
+msgstr "يومية"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_general_ledger_xlsx__sortby__sort_journal_partner
+#, python-format
+msgid "Journal & Partner"
+msgstr "اليومية & الشريك"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__journal_ids
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__journal_ids
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__journal_ids
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__journal_ids
+#, python-format
+msgid "Journals"
+msgstr "اليوميات"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "Journals :"
+msgstr "اليوميات:"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_report_financial____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_report_generalledger____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_reports_xlsx_report_agedpartnerbalance____last_update
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_report_account_reports_xlsx_report_partnerledger____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__write_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__write_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__write_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__write_uid
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث بواسطة"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__write_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__write_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__write_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__write_date
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__level
+msgid "Level"
+msgstr "المستوي"
+
+#. module: account_reports_xlsx
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_liability0
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_liabilitysum0
+msgid "Liability"
+msgstr "الالتزامات"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__style_overwrite__1
+msgid "Main Title 1 (bold, underlined)"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "Move"
+msgstr "حركة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#, python-format
+msgid "Name"
+msgstr "اسم"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__accounting_report_xlsx__filter_cmp__filter_no
+#, python-format
+msgid "No Filters"
+msgstr "لا فلتر"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__display_detail__no_detail
+msgid "No detail"
+msgstr "لا تفاصيل"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__style_overwrite__4
+msgid "Normal Text"
+msgstr "نص عادي"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#, python-format
+msgid "Not due"
+msgstr "غير مستحق"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__parent_id
+msgid "Parent"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "Partner"
+msgstr "شريك"
+
+#. module: account_reports_xlsx
+#: model:ir.actions.act_window,name:account_reports_xlsx.action_view_partner_report
+#: model:ir.ui.menu,name:account_reports_xlsx.partner_report_child_menu
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+msgid "Partner Ledger"
+msgstr "دفتر الشريك"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#, python-format
+msgid "Partner Ledger Report"
+msgstr "تقرير دفتر الشريك"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__result_selection
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__result_selection
+#, python-format
+msgid "Partner's"
+msgstr "الشركاء"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#, python-format
+msgid "Partner's:"
+msgstr "الشركاء:"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__partner_ids
+#, python-format
+msgid "Partners"
+msgstr "الشركاء"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_aged_trial_balance_xlsx__result_selection__supplier
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_partner_ledger_xlsx__result_selection__supplier
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#, python-format
+msgid "Payable Accounts"
+msgstr "الحسابات الدائنة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__period_length
+#, python-format
+msgid "Period Length (days)"
+msgstr "طول الفترة (ايام)"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#, python-format
+msgid "Period Length (days):"
+msgstr "طول الفترة (ايام) :"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__sign__1
+msgid "Preserve balance sign"
+msgstr "حفظ علامة التوازن"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_common_report_view
+msgid "Print"
+msgstr "طباعة"
+
+#. module: account_reports_xlsx
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_profitloss_toreport0
+msgid "Profit (Loss) to report"
+msgstr "الربح (الخسارة) للتقرير"
+
+#. module: account_reports_xlsx
+#: model:account.financial.report,name:account_reports_xlsx.account_financial_report_profitandloss0
+#: model:ir.actions.act_window,name:account_reports_xlsx.action_account_report_pl
+msgid "Profit and Loss"
+msgstr "الارباح و الخسائر"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_aged_trial_balance_xlsx__result_selection__customer
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_partner_ledger_xlsx__result_selection__customer
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#, python-format
+msgid "Receivable Accounts"
+msgstr "الحسابات المدينة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_aged_trial_balance_xlsx__result_selection__customer_supplier
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_partner_ledger_xlsx__result_selection__customer_supplier
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_agedpartnerbalance
+#, python-format
+msgid "Receivable and Payable Accounts"
+msgstr "الحسابات المدينة و الدائنة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__reconciled
+#, python-format
+msgid "Reconciled Entries"
+msgstr "قيود تمت تسويتها"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.report_partnerledger
+#, python-format
+msgid "Ref"
+msgstr "مرجع"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "Report Date"
+msgstr "تاريخ التقرير"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__name
+msgid "Report Name"
+msgstr "اسم التقرير"
+
+#. module: account_reports_xlsx
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_aged_balance_view
+#: model_terms:ir.ui.view,arch_db:account_reports_xlsx.account_common_report_view
+msgid "Report Options"
+msgstr "خيارات التقرير"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__account_report_id
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__type__account_report
+msgid "Report Value"
+msgstr "قيمة التقرير"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__sign__-1
+msgid "Reverse balance sign"
+msgstr "علامة التوازن العكسي"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__sequence
+msgid "Sequence"
+msgstr "تسلسل"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__sign
+msgid "Sign on Reports"
+msgstr "قم بتسجيل الدخول إلى التقارير"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__style_overwrite__6
+msgid "Smallest Text"
+msgstr "نص صغير"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__sortby
+#, python-format
+msgid "Sort by"
+msgstr "ترتيب ب"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "Sorted By"
+msgstr "مرتبة ب"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__date_from
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__date_from
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__date_from
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__date_from
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__date_from_cmp
+#, python-format
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#, python-format
+msgid "Start Date:"
+msgstr "تاريخ البداية:"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_aged_trial_balance_xlsx__target_move
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_general_ledger_xlsx__target_move
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__target_move
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_accounting_report_xlsx__target_move
+#, python-format
+msgid "Target Moves"
+msgstr "الحركة المستهدفة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_financial_report.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#, python-format
+msgid "Target Moves:"
+msgstr "الحركة المستهدفة:"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,help:account_reports_xlsx.field_accounting_report_xlsx__label_filter
+msgid ""
+"This label will be displayed on report to show the balance computed for the "
+"given comparison filter."
+msgstr "سيتم عرض هذه التسمية في التقرير لإظهار الرصيد المحسوب لمرشح المقارنة المحدد."
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,help:account_reports_xlsx.field_accounting_report_xlsx__debit_credit
+msgid ""
+"This option allows you to get more details about the way your balances are "
+"computed. Because it is space consuming, we do not allow to use it while "
+"doing a comparison."
+msgstr "يتيح لك هذا الخيار الحصول على مزيد من التفاصيل حول طريقة حساب أرصدتك. نظرًا لأنها تستهلك مساحة ، فإننا لا نسمح باستخدامها أثناء إجراء مقارنة."
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__style_overwrite__2
+msgid "Title 2 (bold)"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__style_overwrite__3
+msgid "Title 3 (bold, smaller)"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#, python-format
+msgid "Total"
+msgstr "الاجمالي"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_financial_report__type
+msgid "Type"
+msgstr "النوع"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/models/account_aged_partner_balance.py:0
+#: code:addons/account_reports_xlsx/report/account_aged_partner_balance.py:0
+#, python-format
+msgid "Unknown Partner"
+msgstr "شريك غير معرف"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_financial_report__type__sum
+msgid "View"
+msgstr "عرض"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_partner_ledger.py:0
+#: model:ir.model.fields,field_description:account_reports_xlsx.field_account_report_partner_ledger_xlsx__amount_currency
+#, python-format
+msgid "With Currency"
+msgstr "مع العملة"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_general_ledger_xlsx__display_account__not_zero
+#, python-format
+msgid "With balance is not equal to 0"
+msgstr "مع رصيد لا يساوي 0"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "With balance not equal to zero"
+msgstr "مع رصيد لا يساوي 0"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#: model:ir.model.fields.selection,name:account_reports_xlsx.selection__account_report_general_ledger_xlsx__display_account__movement
+#, python-format
+msgid "With movements"
+msgstr "مع الحركات"
+
+#. module: account_reports_xlsx
+#: model:ir.model.fields,help:account_reports_xlsx.field_account_financial_report__style_overwrite
+msgid ""
+"You can set up here the format you want this record to be displayed. If you "
+"leave the automatic formatting, it will be computed based on the financial "
+"reports hierarchy (auto-computed field 'level')."
+msgstr ""
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_general_ledger.py:0
+#, python-format
+msgid "You must define a Start Date"
+msgstr "يجب عليك تحديد تاريخ البدء"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#, python-format
+msgid "You must set a period length greater than 0."
+msgstr "يجب عليك تعيين طول فترة أكبر من 0."
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/models/account_aged_partner_balance.py:0
+#, python-format
+msgid "You must set a start date"
+msgstr "يجب عليك تحديد تاريخ البدء"
+
+#. module: account_reports_xlsx
+#: code:addons/account_reports_xlsx/wizard/account_report_aged_partner_balance.py:0
+#, python-format
+msgid "You must set a start date."
+msgstr "يجب عليك تحديد تاريخ البدء"
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_account_report_partner_ledger_xlsx
+msgid "account.report.partner.ledger.xlsx"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_report_account_report_financial
+msgid "report.account.report_financial"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_report_account_report_generalledger
+msgid "report.account.report_generalledger"
+msgstr ""
+
+#. module: account_reports_xlsx
+#: model:ir.model,name:account_reports_xlsx.model_report_account_reports_xlsx_report_partnerledger
+msgid "report.account_reports_xlsx.report_partnerledger"
+msgstr ""

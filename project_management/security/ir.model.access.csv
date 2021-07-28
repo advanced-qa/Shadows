@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_project_project,project.project,model_project_project,project.group_project_user,1,1,0,0
+access_project_planning_user,project planning user,model_project_planning,project.group_project_user,1,0,0,0
+access_project_planning_manager,project planning manager,model_project_planning,project.group_project_manager,1,1,1,1
+access_project_todo_user,project to_do user,project_management.model_project_todo,project.group_project_user,1,0,0,0
+access_project_todo_manager,project to_do manager,project_management.model_project_todo,project.group_project_manager,1,1,1,1
+access_project_contract_user,project contract user,project_management.model_project_contract,project.group_project_user,1,0,0,0
+access_project_contract_manager,project contract manager,project_management.model_project_contract,project.group_project_manager,1,1,1,1
+access_project_template_user,project template user,project_management.model_project_template,project.group_project_user,1,0,0,0
+access_project_template_manager,project template manager,project_management.model_project_template,project.group_project_manager,1,1,1,1
+access_project_bom_user,project bom user,project_management.model_project_bom,project.group_project_user,1,1,1,1
+access_project_bom_manager,project bom manager,project_management.model_project_bom,project.group_project_manager,1,1,1,1

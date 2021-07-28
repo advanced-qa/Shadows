@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript"
+                        src="/accounting_dynamic_reports/static/src/js/report_view.js"/>
+                <script type="text/javascript"
+                        src="/accounting_dynamic_reports/static/src/js/report_view_horizontal.js"/>
+                <link rel="stylesheet"
+                      href="/accounting_dynamic_reports/static/src/css/reports.css"
+                      id="reports-stylesheet"/>
+                <script src="accounting_dynamic_reports/static/lib/table2excel/jquery.table2excel.min.js"/>
+            </xpath>
+        </template>
+
+        <!--    Style for exported pdf report    -->
+        <template id="assets_common" name="dynamic_pdf_report" inherit_id="web.report_assets_common">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet"
+                      href="/accounting_dynamic_reports/static/src/css/style.css"
+                      id="reports-stylesheet"/>
+            </xpath>
+        </template>
+
+        <!--    Excel report action manager     -->
+        <template id="assets_backend" name="xls_assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/accounting_dynamic_reports/static/src/js/action_manager.js"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

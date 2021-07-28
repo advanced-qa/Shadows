@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="account.account" id="chart1">
+            <field name="code">1110001</field>
+            <field name="name">تكلفة السيارات</field>
+            <field name="user_type_id" ref="account.data_account_type_fixed_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart2">
+            <field name="code">1110002</field>
+            <field name="name">مخصص اهلاك السيارات</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart3">
+            <field name="code">1120001</field>
+            <field name="name">تكلفة الات ومعدات</field>
+            <field name="user_type_id" ref="account.data_account_type_fixed_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart4">
+            <field name="code">1120002</field>
+            <field name="name">مخصص اهلاك الات ومعدات</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart5">
+            <field name="code">1130001</field>
+            <field name="name">تكلفة اجهزة كمبيوتر وطابعات</field>
+            <field name="user_type_id" ref="account.data_account_type_fixed_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart6">
+            <field name="code">1130002</field>
+            <field name="name">مخصص اهلاك اجهزة كمبيوتر وطابعات</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart7">
+            <field name="code">1140001</field>
+            <field name="name">تكلفة اثاث ومفروشات</field>
+            <field name="user_type_id" ref="account.data_account_type_fixed_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart8">
+            <field name="code">1140002</field>
+            <field name="name">مخصص اهلاك اثاث ومفروشات</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart9">
+            <field name="code">1210001</field>
+            <field name="name">نقدية بالصندوق</field>
+            <field name="user_type_id" ref="account.data_account_type_liquidity"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart10">
+            <field name="code">1220001</field>
+            <field name="name">مصرف قطر الاسلامى</field>
+            <field name="user_type_id" ref="account.data_account_type_liquidity"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart11">
+            <field name="code">1220002</field>
+            <field name="name">البنك الدولي الاسلامس</field>
+            <field name="user_type_id" ref="account.data_account_type_liquidity"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart12">
+            <field name="code">1230001</field>
+            <field name="name">معلوماتية</field>
+            <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart13">
+            <field name="code">1230002</field>
+            <field name="name">نعمة</field>
+            <field name="user_type_id" ref="account.data_account_type_receivable"/>
+            <field name="reconcile">1</field>
+        </record>
+        <record model="account.account" id="chart14">
+            <field name="code">1230003</field>
+            <field name="name">دولفين القابضة</field>
+            <field name="user_type_id" ref="account.data_account_type_receivable"/>
+            <field name="reconcile">1</field>
+        </record>
+        <record model="account.account" id="chart15">
+            <field name="code">1230004</field>
+            <field name="name">فوكس لاين للانظمة الذكية</field>
+            <field name="user_type_id" ref="account.data_account_type_receivable"/>
+            <field name="reconcile">1</field>
+        </record>
+        <record model="account.account" id="chart16">
+            <field name="code">1240001</field>
+            <field name="name">عهدة السيد / وائل ماجد</field>
+            <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart17">
+            <field name="code">1260001</field>
+            <field name="name">مكتب اساس القديم</field>
+            <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart18">
+            <field name="code">1260002</field>
+            <field name="name">ايرادات مستحقة</field>
+            <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart19">
+            <field name="code">1260003</field>
+            <field name="name">مصروفات مدفوعة مقدما</field>
+            <field name="user_type_id" ref="account.data_account_type_current_assets"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart20">
+            <field name="code">1260004</field>
+            <field name="name">أوراق قبض</field>
+            <field name="user_type_id" ref="account.data_account_type_receivable"/>
+            <field name="reconcile">1</field>
+        </record>
+        <record model="account.account" id="chart21">
+            <field name="code">2110001</field>
+            <field name="name">راس مال السيد/ عمر عبدالعزيز المروانى</field>
+            <field name="user_type_id" ref="account.data_account_type_equity"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart22">
+            <field name="code">2120001</field>
+            <field name="name">جارى الشريك / عمر عبدالعزيز المروانى</field>
+            <field name="user_type_id" ref="account.data_account_type_equity"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart23">
+            <field name="code">2130001</field>
+            <field name="name">ارباح وخسائر مرحلة</field>
+            <field name="user_type_id" ref="account.data_account_type_equity"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart24">
+            <field name="code">2210001</field>
+            <field name="name">تكنوكيو تاون</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart25">
+            <field name="code">2220001</field>
+            <field name="name">اجور مستحقة</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart26">
+            <field name="code">2220002</field>
+            <field name="name">ايرادات مدفوعة مقدمة</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart27">
+            <field name="code">2220003</field>
+            <field name="name">شركة ويفر بيرد للمقاولات والتجارة</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart28">
+            <field name="code">2220004</field>
+            <field name="name">شركة تمريد . ذ. م . م</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart29">
+            <field name="code">2220005</field>
+            <field name="name">اوراق دفع</field>
+            <field name="user_type_id" ref="account.data_account_type_payable"/>
+            <field name="reconcile">1</field>
+        </record>
+        <record model="account.account" id="chart30">
+            <field name="code">2250001</field>
+            <field name="name">مخصص مكافأة نهاية الخدمة</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart31">
+            <field name="code">2250002</field>
+            <field name="name">مخصص الاجازات السنوية</field>
+            <field name="user_type_id" ref="account.data_account_type_current_liabilities"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart32">
+            <field name="code">3100001</field>
+            <field name="name">مرتبات الاداريين</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart33">
+            <field name="code">3100002</field>
+            <field name="name">ايجار المكتب</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart34">
+            <field name="code">3100003</field>
+            <field name="name">م. هاتف وجوالات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart35">
+            <field name="code">3100004</field>
+            <field name="name">اشتراك البريد السنوي</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart36">
+            <field name="code">3100005</field>
+            <field name="name">أتعاب مهنية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart37">
+            <field name="code">3100006</field>
+            <field name="name">مصروفات بنكية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart38">
+            <field name="code">3100007</field>
+            <field name="name">مصروفات ضيافة واستقبال</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart39">
+            <field name="code">3100008</field>
+            <field name="name">مواد نظافة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart40">
+            <field name="code">3100009</field>
+            <field name="name">أجور نظافة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart41">
+            <field name="code">3100010</field>
+            <field name="name">ادوات مكتبية وقرطاسية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart42">
+            <field name="code">3100011</field>
+            <field name="name">طباعة وتصوير رسومات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart43">
+            <field name="code">3100012</field>
+            <field name="name">بترول سيارات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart44">
+            <field name="code">3100013</field>
+            <field name="name">صيانة سيارات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart45">
+            <field name="code">3100014</field>
+            <field name="name">رسوم حكومية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart46">
+            <field name="code">3100015</field>
+            <field name="name">رسوم اقامات وخروجيات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart47">
+            <field name="code">3100016</field>
+            <field name="name">مصروفات صيانة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart48">
+            <field name="code">3100017</field>
+            <field name="name">احبار طابعات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart49">
+            <field name="code">3100018</field>
+            <field name="name">تذاكر سفر</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart50">
+            <field name="code">3100019</field>
+            <field name="name">رعاية طبية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart51">
+            <field name="code">3100020</field>
+            <field name="name">كهرباء ومياه</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart52">
+            <field name="code">3100021</field>
+            <field name="name">مطبوعات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart53">
+            <field name="code">3100022</field>
+            <field name="name">جرائد ومجلات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart54">
+            <field name="code">3100023</field>
+            <field name="name">رسوم مناقصات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart55">
+            <field name="code">3100024</field>
+            <field name="name">بدل سفر</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart56">
+            <field name="code">3100025</field>
+            <field name="name">مصاريف فندقية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart57">
+            <field name="code">3100026</field>
+            <field name="name">تأمين المكتب</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart58">
+            <field name="code">3100027</field>
+            <field name="name">م. دعاية واعلان</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart59">
+            <field name="code">3100028</field>
+            <field name="name">ايجار سيارات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart60">
+            <field name="code">3100029</field>
+            <field name="name">م. انتقال</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart61">
+            <field name="code">3100030</field>
+            <field name="name">ادوات كهرباء</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart62">
+            <field name="code">3100031</field>
+            <field name="name">مكافاة نهاية الخدمة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart63">
+            <field name="code">3100032</field>
+            <field name="name">مصروفات متنوعة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart64">
+            <field name="code">3100033</field>
+            <field name="name">م.إهلاك أجهزة كمبيوتر وطابعات</field>
+            <field name="user_type_id" ref="account.data_account_type_depreciation"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart65">
+            <field name="code">3100034</field>
+            <field name="name">م. إهلاك الات ومعدات</field>
+            <field name="user_type_id" ref="account.data_account_type_depreciation"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart66">
+            <field name="code">3100035</field>
+            <field name="name">م. إهلاك أثاث ومفروشات</field>
+            <field name="user_type_id" ref="account.data_account_type_depreciation"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart67">
+            <field name="code">3100036</field>
+            <field name="name">مكافات تشجيعية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart68">
+            <field name="code">3100037</field>
+            <field name="name">بدل الاجازة السنوية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart69">
+            <field name="code">3200000</field>
+            <field name="name">مصروفات التشغيل</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart70">
+            <field name="code">3200001</field>
+            <field name="name">مرتبات الادارة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart71">
+            <field name="code">3200002</field>
+            <field name="name">أجور خارجية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart72">
+            <field name="code">3200003</field>
+            <field name="name">أجور/ مواد بشرية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart73">
+            <field name="code">3200004</field>
+            <field name="name">اتعاب الدعم الفني / انظمة كمبيوتر</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart74">
+            <field name="code">3200005</field>
+            <field name="name">طباعة وتصوير</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart75">
+            <field name="code">3200006</field>
+            <field name="name">صيانة سيارات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart76">
+            <field name="code">3200007</field>
+            <field name="name">رسوم حكومية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart77">
+            <field name="code">3200008</field>
+            <field name="name">رسوم اقامات</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart78">
+            <field name="code">3200009</field>
+            <field name="name">تذاكر سفر</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart79">
+            <field name="code">3200010</field>
+            <field name="name">أعمال أرشيف</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart80">
+            <field name="code">3200011</field>
+            <field name="name">دعاية وتسويق</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart81">
+            <field name="code">3200012</field>
+            <field name="name">مصروفات فندقية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart82">
+            <field name="code">3200013</field>
+            <field name="name">مكافأة نهاية الخدمة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart83">
+            <field name="code">3200014</field>
+            <field name="name">م. انتقال</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart84">
+            <field name="code">3200015</field>
+            <field name="name">بدل الاجازة السنوية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart85">
+            <field name="code">3200016</field>
+            <field name="name">م. هاتف وجوال</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart86">
+            <field name="code">3200017</field>
+            <field name="name">مكافأت تشجيعية</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart87">
+            <field name="code">3200018</field>
+            <field name="name">ديون معدومة</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart88">
+            <field name="code">3200019</field>
+            <field name="name">خصم مسموح</field>
+            <field name="user_type_id" ref="account.data_account_type_expenses"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart89">
+            <field name="code">4000000</field>
+            <field name="name">الايرادات</field>
+            <field name="user_type_id" ref="account.data_account_type_revenue"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart90">
+            <field name="code">4100000</field>
+            <field name="name">ايرادات النشاط</field>
+            <field name="user_type_id" ref="account.data_account_type_revenue"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart91">
+            <field name="code">4100001</field>
+            <field name="name">مبيعات أجهزة كمبيوتر</field>
+            <field name="user_type_id" ref="account.data_account_type_revenue"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart92">
+            <field name="code">4100002</field>
+            <field name="name">مبيعات برامج وانظمة كمبيوتر</field>
+            <field name="user_type_id" ref="account.data_account_type_revenue"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart93">
+            <field name="code">4100003</field>
+            <field name="name">موارد بشرية</field>
+            <field name="user_type_id" ref="account.data_account_type_revenue"/>
+            <field name="reconcile">0</field>
+        </record>
+        <record model="account.account" id="chart94">
+            <field name="code">4100004</field>
+            <field name="name">ايرادات متتنوعة</field>
+            <field name="user_type_id" ref="account.data_account_type_revenue"/>
+            <field name="reconcile">0</field>
+        </record>
+    </data>
+</odoo>
